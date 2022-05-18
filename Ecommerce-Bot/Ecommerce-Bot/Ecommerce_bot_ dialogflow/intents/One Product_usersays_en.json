@@ -1,0 +1,26 @@
+[
+  {
+    "id": "f66d91ce-5d8f-4e8d-9931-08c5553702c9",
+    "data": [
+      {
+        "text": "T-Shirts",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d734cfd9-19de-4b5d-bff3-71ece23bcc93",
+    "data": [
+      {
+        "text": "Hey, I\u0027m looking for T-Shirts",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

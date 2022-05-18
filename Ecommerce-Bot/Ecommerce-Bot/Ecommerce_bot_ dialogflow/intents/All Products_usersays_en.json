@@ -1,0 +1,26 @@
+[
+  {
+    "id": "b3647341-507a-4ba4-a9cc-6343464ab6d6",
+    "data": [
+      {
+        "text": "🛒All Products",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7847b1c7-f26b-46b4-87a8-47d2ec82598d",
+    "data": [
+      {
+        "text": "All Products",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

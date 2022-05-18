@@ -1,0 +1,36 @@
+{
+  "id": "83c1f4b0-864a-4711-8376-25a29d107718",
+  "parentId": "68625df7-8b94-4a7c-8030-7a02081354e0",
+  "rootParentId": "68625df7-8b94-4a7c-8030-7a02081354e0",
+  "name": "General question",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Cool. Let me see if I can help you out. If not I will fetch someone from the support team. What is your question about?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

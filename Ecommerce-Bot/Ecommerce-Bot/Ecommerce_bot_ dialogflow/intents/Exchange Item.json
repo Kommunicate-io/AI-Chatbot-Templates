@@ -1,0 +1,36 @@
+{
+  "id": "73562102-9a4d-421e-ba1f-3c8917d58363",
+  "parentId": "68625df7-8b94-4a7c-8030-7a02081354e0",
+  "rootParentId": "68625df7-8b94-4a7c-8030-7a02081354e0",
+  "name": "Exchange Item",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "You can setup a return or exchange online. During the setup, we’ll let you know which items are eligible to be returned and if there’s any restocking fee.  \nIf you’d like to exchange the item, please place a new order of similar cost within 15 days and the restocking fee will be credited back to you"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
