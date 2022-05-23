@@ -1,0 +1,145 @@
+{
+  "id": "84e02b9b-8e19-4eb1-b416-6421d8a296aa",
+  "name": "Snacks Combo",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "message": "",
+            "platform": "kommunicate",
+            "metadata": {
+              "templateId": "10",
+              "contentType": "300",
+              "payload": [
+                {
+                  "buttons": [
+                    {
+                      "name": "Buy Now",
+                      "action": {
+                        "type": "quickReply",
+                        "payload": {
+                          "message": "Buy-Kalmi Vada",
+                          "replyMetadata": {
+                            "key1": "value1"
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "header": {
+                    "imgSrc": "https://i.ndtvimg.com/i/2017-07/kalmi-vada_620x330_61500538756.jpg",
+                    "overlayText": "$20"
+                  },
+                  "description": "This golden fried delicacy from Rajasthan is addictive. It is made with with a mix of dalsand served with a fresh hari chutney",
+                  "subtitle": "5 pcs",
+                  "title": "Kalmi Vada",
+                  "titleExt": ""
+                },
+                {
+                  "subtitle": "5 pcs",
+                  "description": "A traditional snack which is mostly enjoyed with a  cup of tea in Karnataka. A spicy potato filling is dipped in a gram flour (besan) batter and then fried golden and served hot with coriander chutney",
+                  "title": "Aloo Bonda",
+                  "buttons": [
+                    {
+                      "action": {
+                        "type": "quickReply",
+                        "payload": {
+                          "replyMetadata": {
+                            "key1": "value1"
+                          },
+                          "message": "Buy-Aloo Bonda"
+                        }
+                      },
+                      "name": "Buy Now"
+                    }
+                  ],
+                  "titleExt": "",
+                  "header": {
+                    "overlayText": "$15",
+                    "imgSrc": "https://i.ndtvimg.com/i/2017-07/aloo-bonda_620x330_71500544680.jpg"
+                  }
+                },
+                {
+                  "header": {
+                    "imgSrc": "https://i.ndtvimg.com/i/2017-07/aloo-chaat_620x330_61500549550.jpg",
+                    "overlayText": "$15"
+                  },
+                  "titleExt": "",
+                  "subtitle": "3 pcs",
+                  "description": "The famous fried aloo chaat of Delhi is not to be missed. Crispy potato chunks are fried in hot oil and then slathered with coriander chutney, meethi chutney and lots of chaat masala",
+                  "buttons": [
+                    {
+                      "action": {
+                        "type": "quickReply",
+                        "payload": {
+                          "replyMetadata": {
+                            "key1": "value1"
+                          },
+                          "message": "Buy-Aloo Chaat"
+                        }
+                      },
+                      "name": "Buy Now"
+                    }
+                  ],
+                  "title": "Aloo Chaat"
+                },
+                {
+                  "titleExt": "",
+                  "header": {
+                    "imgSrc": "https://i.ndtvimg.com/i/2017-07/mawa-cake_625x350_71500545602.jpg",
+                    "overlayText": "$16"
+                  },
+                  "buttons": [
+                    {
+                      "action": {
+                        "type": "quickReply",
+                        "payload": {
+                          "replyMetadata": {
+                            "key1": "value1"
+                          },
+                          "message": "Buy-Mawa Cake"
+                        }
+                      },
+                      "name": "Buy Now"
+                    }
+                  ],
+                  "description": "The Irani chai and mawa cake is a much-loved combination and if you ever visit a Parsi cafe for tea you\u0027ll find it on most table tops",
+                  "title": "Mawa Cake",
+                  "subtitle": "4 pcs"
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,167 @@
+{
+  "id": "50fa6e49-1538-4cdf-b335-3695d43017f6",
+  "parentId": "3113d53e-66a9-4490-80dd-84ce8ce38785",
+  "rootParentId": "6e546280-b44d-4c4e-9976-15a310d2f624",
+  "name": "Pizzas - Veg-Pizza - Size - customise - No",
+  "auto": true,
+  "contexts": [
+    "Pizzas-Veg-Pizza-Size-customise-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Pizzas.Pizzas-custom.Pizzas-Veg-Pizza-custom.Pizzas-Veg-Pizza-Size-custom.Pizzas-Veg-Pizza-Size-customise-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4e35e521-5eee-4eca-add3-49703724f3e4",
+          "name": "number",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Great! How many pizzas do you want?  \n\nFor example, type 1 or 2, etc."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a3da3074-0340-4351-ae2e-fcf0fb4e5a6e",
+          "name": "given-name",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "value": "$given-name",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Got it, Let me just take your info. May I know your name?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b3591922-23a8-49f4-ae99-2549b4599208",
+          "name": "phone-number",
+          "required": false,
+          "dataType": "@sys.phone-number",
+          "value": "$phone-number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "0c700d87-ec9c-47cc-8299-2030f1b4caa2",
+          "name": "email",
+          "required": true,
+          "dataType": "@sys.email",
+          "value": "$email",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Fine, please provide your 📧email and 📱phone number for contacting!"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "ac83cd35-813e-4ed4-ac62-f8c3326919d8",
+          "name": "address",
+          "required": true,
+          "dataType": "@sys.address",
+          "value": "$address",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Finally your 🏠address to deliver the order!"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Awesome😃 Your order is booked. You\u0027ll get a confirmation message soon."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "metadata": {
+              "payload": [
+                {
+                  "message": "Main course",
+                  "title": "🥣Main course"
+                },
+                {
+                  "title": "🍔Starters",
+                  "message": "Starters"
+                },
+                {
+                  "title": "🍕Pizzas",
+                  "message": "Pizzas"
+                },
+                {
+                  "title": "🥤Dessert \u0026 Drinks",
+                  "message": "Dessert \u0026 Drinks"
+                },
+                {
+                  "title": "🥪Snacks Combo",
+                  "message": "Snacks Combo"
+                }
+              ],
+              "contentType": "300",
+              "templateId": "6"
+            },
+            "message": "Want more? Select and proceed 👇",
+            "platform": "kommunicate"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,74 @@
+{
+  "id": "d661bb8f-74c6-4569-b7da-b55b8386bdcd",
+  "parentId": "72c7ae2d-8a8b-4806-8109-e80f6f9bbc7d",
+  "rootParentId": "6e546280-b44d-4c4e-9976-15a310d2f624",
+  "name": "Pizzas - Veg-Pizza - Size - customise - Yes - Toppings",
+  "auto": true,
+  "contexts": [
+    "Pizzas-Veg-Pizza-Size-customise-Yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Pizzas.Pizzas-custom.Pizzas-Veg-Pizza-custom.Pizzas-Veg-Pizza-Size-custom.Pizzas-Veg-Pizza-Size-customise-custom.Pizzas-Veg-Pizza-Size-customise-Yes-custom",
+      "affectedContexts": [
+        {
+          "name": "Pizzas-Veg-Pizza-Size-customise-Yes-Toppings-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "contentType": "300",
+              "templateId": "6",
+              "payload": [
+                {
+                  "message": "Onion",
+                  "title": "Onion"
+                },
+                {
+                  "title": "Mushroom",
+                  "message": "Mushroom"
+                },
+                {
+                  "title": "Crisp Capsicum",
+                  "message": "Crisp Capsicum"
+                },
+                {
+                  "title": "Black Olive",
+                  "message": "Black Olive"
+                }
+              ]
+            },
+            "message": "Select a topping to proceed further!"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

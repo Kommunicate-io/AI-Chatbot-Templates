@@ -1,0 +1,150 @@
+{
+  "id": "6b1bc0dc-ce7c-45d7-bc99-9746b1bb2779",
+  "name": "Starters",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Starters-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "message": "",
+            "platform": "kommunicate",
+            "metadata": {
+              "templateId": "10",
+              "contentType": "300",
+              "payload": [
+                {
+                  "subtitle": "2 pcs",
+                  "titleExt": "",
+                  "header": {
+                    "imgSrc": "https://i.ndtvimg.com/i/2015-07/tangdi-kebab_625x350_51436945918.jpg",
+                    "overlayText": "$15"
+                  },
+                  "description": "Tangri Kebabs are basically chicken leg pieces that are first marinated in a spicy marinade and then roasted in a tandoor",
+                  "buttons": [
+                    {
+                      "action": {
+                        "payload": {
+                          "message": "Buy-Tangri Kebabs",
+                          "replyMetadata": {
+                            "key1": "value1"
+                          }
+                        },
+                        "type": "quickReply"
+                      },
+                      "name": "Buy Now"
+                    }
+                  ],
+                  "title": "Tangri Kebabs"
+                },
+                {
+                  "buttons": [
+                    {
+                      "name": "Buy Now",
+                      "action": {
+                        "payload": {
+                          "message": "Buy-Crumb-Fried Chicken",
+                          "replyMetadata": {
+                            "key1": "value1"
+                          }
+                        },
+                        "type": "quickReply"
+                      }
+                    }
+                  ],
+                  "subtitle": "2 pcs",
+                  "header": {
+                    "imgSrc": "https://i.ndtvimg.com/i/2015-07/fried-chicken-625_625x350_41436947175.jpg",
+                    "overlayText": "$12"
+                  },
+                  "description": "Crunchy, crispy and just divine - one can’t get enough of this classic crumb-fried chicken spruced up with a zingy dip",
+                  "titleExt": "",
+                  "title": "Crumb-Fried Chicken"
+                },
+                {
+                  "header": {
+                    "overlayText": "$12",
+                    "imgSrc": "https://i.ndtvimg.com/i/2015-07/chicken-wings-625_625x350_71436947129.jpg"
+                  },
+                  "title": "Bhuna Chicken Wings",
+                  "titleExt": "",
+                  "description": "Coated with dry red chillies, cumin and coriander - dig into these fiery hot wings with a desi makeover. Make a a hit at any party",
+                  "subtitle": "3 pcs",
+                  "buttons": [
+                    {
+                      "action": {
+                        "payload": {
+                          "replyMetadata": {
+                            "key1": "value1"
+                          },
+                          "message": "Buy-Bhuna Chicken Wings"
+                        },
+                        "type": "quickReply"
+                      },
+                      "name": "Buy Now"
+                    }
+                  ]
+                },
+                {
+                  "titleExt": "",
+                  "buttons": [
+                    {
+                      "action": {
+                        "payload": {
+                          "message": "Buy-Cheese Balls",
+                          "replyMetadata": {
+                            "key1": "value1"
+                          }
+                        },
+                        "type": "quickReply"
+                      },
+                      "name": "Buy Now"
+                    }
+                  ],
+                  "subtitle": "3 pcs",
+                  "title": "Cheese Balls",
+                  "description": "Our outstanding cheese balls are all about the crunch. No forks or spoons are required for this easy-to-grab party snack",
+                  "header": {
+                    "overlayText": "$9",
+                    "imgSrc": "https://i.ndtvimg.com/i/2015-07/cheese-balls-625_625x350_81436947081.jpg"
+                  }
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

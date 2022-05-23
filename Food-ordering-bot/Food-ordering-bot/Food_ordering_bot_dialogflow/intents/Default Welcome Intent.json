@@ -1,0 +1,75 @@
+{
+  "id": "11ccdc00-abde-4b23-bdcf-8d0652450180",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Welcome😍 Order \u0026 enjoy the food!\n\nPlease Pick a Food Category 👇"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "metadata": {
+              "contentType": "300",
+              "templateId": "6",
+              "payload": [
+                {
+                  "title": "🥣Main course",
+                  "message": "Main course"
+                },
+                {
+                  "message": "Starters",
+                  "title": "🍔Starters"
+                },
+                {
+                  "title": "🍕Pizzas",
+                  "message": "Pizzas"
+                },
+                {
+                  "title": "🥤Dessert \u0026 Drinks",
+                  "message": "Dessert \u0026 Drinks"
+                },
+                {
+                  "title": "🥪Snacks Combo",
+                  "message": "Snacks Combo"
+                }
+              ]
+            },
+            "platform": "kommunicate"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

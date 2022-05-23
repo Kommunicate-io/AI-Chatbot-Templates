@@ -1,0 +1,41 @@
+[
+  {
+    "id": "46428111-883d-4af5-9f69-674f31a0766b",
+    "data": [
+      {
+        "text": "Medium Pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2388782d-717a-4ec2-a9b0-56c2f90ee69d",
+    "data": [
+      {
+        "text": "Regular Pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a6f7ecb1-424b-4ec6-8f95-5ec5d66fa350",
+    "data": [
+      {
+        "text": "Large Pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

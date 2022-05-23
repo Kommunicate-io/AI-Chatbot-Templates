@@ -1,0 +1,145 @@
+{
+  "id": "b66a2919-2ed6-40d5-be32-23e4250f991a",
+  "name": "Main course",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "message": "",
+            "metadata": {
+              "payload": [
+                {
+                  "description": "Sonoran hot dogs is salty, crunchy, spicy, and snappy all at the same time. It really hits every taste",
+                  "titleExt": "",
+                  "subtitle": "2 pcs",
+                  "buttons": [
+                    {
+                      "name": "Buy Now",
+                      "action": {
+                        "type": "quickReply",
+                        "payload": {
+                          "message": "Buy-Sonoran Hot Dog",
+                          "replyMetadata": {
+                            "key1": "value1"
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "header": {
+                    "imgSrc": "https://www.macheesmo.com/wp-content/uploads/2018/04/Sonoran-Hot-Dogs.jpg",
+                    "overlayText": "$24"
+                  },
+                  "title": "Sonoran Hot Dog"
+                },
+                {
+                  "title": "Chicken Biryani",
+                  "titleExt": "",
+                  "description": "Chicken Biryani is a savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed together",
+                  "subtitle": "1 pt",
+                  "buttons": [
+                    {
+                      "action": {
+                        "payload": {
+                          "replyMetadata": {
+                            "key1": "value1"
+                          },
+                          "message": "Buy-Chicken Biryani"
+                        },
+                        "type": "quickReply"
+                      },
+                      "name": "Buy Now"
+                    }
+                  ],
+                  "header": {
+                    "imgSrc": "https://www.awesomecuisine.com/wp-content/uploads/2007/10/Chicken-Biryani_resized.jpg",
+                    "overlayText": "$9"
+                  }
+                },
+                {
+                  "titleExt": "",
+                  "subtitle": "1 pt",
+                  "description": "Dig into soft flaky fillets of baked Red Snapper, a Mexican favourite. Coat the fillets with a spicy tomato sauce - a riot of flavours for your palate",
+                  "header": {
+                    "imgSrc": "https://i.ndtvimg.com/i/2015-03/red-snapper_625x350_71426067699.jpg",
+                    "overlayText": "$25"
+                  },
+                  "title": "Red Snapper",
+                  "buttons": [
+                    {
+                      "action": {
+                        "payload": {
+                          "message": "Buy-Red Snapper",
+                          "replyMetadata": {
+                            "key1": "value1"
+                          }
+                        },
+                        "type": "quickReply"
+                      },
+                      "name": "Buy Now"
+                    }
+                  ]
+                },
+                {
+                  "subtitle": "2 pt",
+                  "titleExt": "",
+                  "header": {
+                    "overlayText": "$25",
+                    "imgSrc": "https://i.ndtvimg.com/i/2015-03/enchiladas_625x350_41426066878.jpg"
+                  },
+                  "buttons": [
+                    {
+                      "name": "Buy Now",
+                      "action": {
+                        "payload": {
+                          "replyMetadata": {
+                            "key1": "value1"
+                          },
+                          "message": "Buy-Enchiladas"
+                        },
+                        "type": "quickReply"
+                      }
+                    }
+                  ],
+                  "description": "Enchilada is a soft corn toritalla which is stuffed with a filling, draped in sauce and baked perfect. Lose yourself in every bite, with oodles of cheese and chicken",
+                  "title": "Enchiladas"
+                }
+              ],
+              "templateId": "10",
+              "contentType": "300"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

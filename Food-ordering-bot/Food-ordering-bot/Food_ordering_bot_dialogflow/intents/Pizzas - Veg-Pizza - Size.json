@@ -1,0 +1,70 @@
+{
+  "id": "33f10b34-e1d7-4d60-affb-c20272f1f741",
+  "parentId": "89905623-c6fe-44d9-a804-659064b5fa95",
+  "rootParentId": "6e546280-b44d-4c4e-9976-15a310d2f624",
+  "name": "Pizzas - Veg-Pizza - Size",
+  "auto": true,
+  "contexts": [
+    "Pizzas-Veg-Pizza-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Pizzas.Pizzas-custom.Pizzas-Veg-Pizza-custom",
+      "affectedContexts": [
+        {
+          "name": "Pizzas-Veg-Pizza-Size-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "metadata": {
+              "contentType": "300",
+              "payload": [
+                {
+                  "message": "Regular Pizza",
+                  "title": "Regular"
+                },
+                {
+                  "message": "Medium Pizza",
+                  "title": "Medium"
+                },
+                {
+                  "title": "Large",
+                  "message": "Large Pizza"
+                }
+              ],
+              "templateId": "6"
+            },
+            "message": "How large do you want?",
+            "platform": "kommunicate"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

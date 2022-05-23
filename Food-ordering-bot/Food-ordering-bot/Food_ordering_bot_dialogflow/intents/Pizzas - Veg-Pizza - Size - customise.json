@@ -1,0 +1,68 @@
+{
+  "id": "3113d53e-66a9-4490-80dd-84ce8ce38785",
+  "parentId": "33f10b34-e1d7-4d60-affb-c20272f1f741",
+  "rootParentId": "6e546280-b44d-4c4e-9976-15a310d2f624",
+  "name": "Pizzas - Veg-Pizza - Size - customise",
+  "auto": true,
+  "contexts": [
+    "Pizzas-Veg-Pizza-Size-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Pizzas.Pizzas-custom.Pizzas-Veg-Pizza-custom.Pizzas-Veg-Pizza-Size-custom",
+      "affectedContexts": [
+        {
+          "name": "Pizzas-Veg-Pizza-Size-customise-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Do you want to customize your pizza toppings?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "contentType": "300",
+              "templateId": "6",
+              "payload": [
+                {
+                  "title": "Yes",
+                  "message": "Yes"
+                },
+                {
+                  "message": "No",
+                  "title": "No"
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "7e8494de-d5c7-496f-9e32-a2db0be270cd",
+    "data": [
+      {
+        "text": "Buy Now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bc7b95ba-9d08-4e89-85a1-50fe1266520d",
+    "data": [
+      {
+        "text": "Buy-Fresh Tomato Pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ef62775f-242e-4b80-8116-b57b60ddf30d",
+    "data": [
+      {
+        "text": "Buy-Paneer Special Pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7cd8c7f9-4f82-4617-ac7e-7eaa6bec541c",
+    "data": [
+      {
+        "text": "Buy-Golden Corn Pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

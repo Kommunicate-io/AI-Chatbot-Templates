@@ -1,0 +1,61 @@
+{
+  "id": "ac063483-0d2f-4133-a54e-95f2aa07cfd6",
+  "parentId": "81996d23-8bf9-4b62-85f9-2ddd4b295ac6",
+  "rootParentId": "6e546280-b44d-4c4e-9976-15a310d2f624",
+  "name": "Pizzas - NonVeg-Pizza - size - customise - Yes",
+  "auto": true,
+  "contexts": [
+    "Pizzas-NonVeg-Pizza-size-customise-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Pizzas.Pizzas-custom.Pizzas-NonVeg-Pizza-custom.Pizzas-NonVeg-Pizza-size-custom.Pizzas-NonVeg-Pizza-size-customise-custom",
+      "affectedContexts": [
+        {
+          "name": "Pizzas-NonVeg-Pizza-size-customise-Yes-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "contentType": "300",
+              "payload": [
+                {
+                  "message": "Toppings",
+                  "title": "Toppings"
+                }
+              ],
+              "templateId": "6"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

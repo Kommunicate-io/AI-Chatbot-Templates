@@ -1,0 +1,81 @@
+{
+  "id": "6e546280-b44d-4c4e-9976-15a310d2f624",
+  "name": "Pizzas",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Pizzas-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "message": "What kind of pizza do you want?",
+            "metadata": {
+              "templateId": "9",
+              "contentType": "300",
+              "payload": [
+                {
+                  "url": "https://www.delonghi.com/Global/recipes/multifry/pizza_fresca.jpg"
+                }
+              ]
+            },
+            "platform": "kommunicate"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "metadata": {
+              "payload": [
+                {
+                  "title": "✔️Veg-Pizza",
+                  "message": "Veg-Pizza"
+                },
+                {
+                  "message": "NonVeg-Pizza",
+                  "title": "❌NonVeg-Pizza"
+                }
+              ],
+              "templateId": "6",
+              "contentType": "300"
+            },
+            "platform": "kommunicate"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

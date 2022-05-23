@@ -1,0 +1,64 @@
+{
+  "id": "72c7ae2d-8a8b-4806-8109-e80f6f9bbc7d",
+  "parentId": "3113d53e-66a9-4490-80dd-84ce8ce38785",
+  "rootParentId": "6e546280-b44d-4c4e-9976-15a310d2f624",
+  "name": "Pizzas - Veg-Pizza - Size - customise - Yes",
+  "auto": true,
+  "contexts": [
+    "Pizzas-Veg-Pizza-Size-customise-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Pizzas.Pizzas-custom.Pizzas-Veg-Pizza-custom.Pizzas-Veg-Pizza-Size-custom.Pizzas-Veg-Pizza-Size-customise-custom",
+      "affectedContexts": [
+        {
+          "name": "Pizzas-Veg-Pizza-Size-customise-Yes-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Cool, Select the Toppings option you want to change 👇"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "payload": [
+                {
+                  "title": "Toppings",
+                  "message": "Toppings"
+                }
+              ],
+              "contentType": "300",
+              "templateId": "6"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
