@@ -1,0 +1,74 @@
+{
+  "id": "d36980b7-bbd3-4a2c-abd0-0114c8dc108a",
+  "parentId": "6a8d22b2-81f4-43d8-8180-7e5d281511b2",
+  "rootParentId": "7725258c-4e3f-43ca-990b-a3bf35249d37",
+  "name": "Home Insurance - Owners",
+  "auto": true,
+  "contexts": [
+    "HomeInsurance-custom-followup",
+    "HomeInsurance-PlanDetails-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "HomeInsurance.HomeInsurance-custom.HomeInsurance-PlanDetails-custom",
+      "affectedContexts": [
+        {
+          "name": "HomeInsurance-PlanDetails-Owners-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "HomeInsurance-Owners-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Your 🏠home is your soul. Protect it!\n\n✔️Covers losses and damages to an individual\u0027s house and to assets in the house"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "metadata": {
+              "contentType": "300",
+              "templateId": "6",
+              "payload": [
+                {
+                  "message": "Please provide us with some details",
+                  "title": "Yes"
+                },
+                {
+                  "title": "No",
+                  "message": "Not looking for this plan"
+                }
+              ]
+            },
+            "message": "Interested in this plan?",
+            "platform": "kommunicate"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

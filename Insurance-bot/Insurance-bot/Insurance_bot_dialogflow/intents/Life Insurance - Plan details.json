@@ -1,0 +1,79 @@
+{
+  "id": "ab6de69f-123e-48c8-b002-44402cf5eb3e",
+  "parentId": "912ed2f4-89e5-41d1-808c-84389673d3a6",
+  "rootParentId": "912ed2f4-89e5-41d1-808c-84389673d3a6",
+  "name": "Life Insurance - Plan details",
+  "auto": true,
+  "contexts": [
+    "LifeInsurance-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LifeInsurance.LifeInsurance-custom",
+      "affectedContexts": [
+        {
+          "name": "LifeInsurance-Plandetails-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "✔️Premium: Rs. 1000 paid annually\n✔️Premium Payment Term: 6 Years (Regular)\n✔️Sum Assured: Rs 2,50,000\n✔️Plan Option: Daily hospital cash, surgical \u0026 critical illness"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "payload": [
+                {
+                  "message": "Surgical Benefit",
+                  "title": "Surgical Benefit"
+                },
+                {
+                  "message": "Critical illness benefit",
+                  "title": "Critical illness benefit"
+                },
+                {
+                  "title": "Daily Hospital Benefit",
+                  "message": "Daily Hospital Benefit"
+                }
+              ],
+              "templateId": "6",
+              "contentType": "300"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

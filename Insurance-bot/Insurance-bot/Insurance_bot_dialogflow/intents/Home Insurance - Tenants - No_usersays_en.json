@@ -1,0 +1,28 @@
+[
+  {
+    "id": "0311eba7-aa50-493a-8f95-6b8bc8103332",
+    "data": [
+      {
+        "text": "Not looking for this plan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3b8368f2-f8fe-4eb1-ac38-d14681950907",
+    "data": [
+      {
+        "text": "No",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

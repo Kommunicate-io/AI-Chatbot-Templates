@@ -1,0 +1,60 @@
+{
+  "id": "c874487c-dcc1-4d3a-bf91-71b4161058f0",
+  "name": "Vehicle Insurance",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "VehicleInsurance-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Motor insurance policy covers the policyholder in case of financial losses, resulting from an accident or other damages sustained by the insured vehicle. \n\nWhat\u0027s included?\n✔️ Accidents, Personal Accident Cover\n✔️ Fire \u0026 Explosion\n✔️ Theft\n✔️ Calamities\n\nWhat’s not included?\n✔️ Depreciation\n✔️ Electrical \u0026 Mechanical Breakdown\n✔️ Illegal Driving"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "metadata": {
+              "templateId": "6",
+              "contentType": "300",
+              "payload": [
+                {
+                  "title": "💡Plan Details",
+                  "message": "Vehicle Insurance - Plan Details"
+                }
+              ]
+            },
+            "platform": "kommunicate"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

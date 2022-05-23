@@ -1,0 +1,59 @@
+{
+  "id": "c6276fdd-ecf0-4dd8-90b6-3d993c54ddd7",
+  "parentId": "ab6de69f-123e-48c8-b002-44402cf5eb3e",
+  "rootParentId": "912ed2f4-89e5-41d1-808c-84389673d3a6",
+  "name": "Life Insurance - Surgical Benefit",
+  "auto": true,
+  "contexts": [
+    "LifeInsurance-Plandetails-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LifeInsurance.LifeInsurance-custom.LifeInsurance-Plandetails-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "✔️Illness or accidental injuries resulting in the hospitalization can bring in some serious financial problems for any family\n \n✔️To provide you with financial assistance in such circumstances we provide Surgical Protection Insurance"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "metadata": {
+              "templateId": "6",
+              "payload": [
+                {
+                  "message": "Main Menu",
+                  "title": "💡Main Menu"
+                }
+              ],
+              "contentType": "300"
+            },
+            "platform": "kommunicate"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

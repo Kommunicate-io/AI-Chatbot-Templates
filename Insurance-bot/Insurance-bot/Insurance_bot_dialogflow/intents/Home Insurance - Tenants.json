@@ -1,0 +1,69 @@
+{
+  "id": "244fa1f3-d93f-407b-b913-ee8ea746c650",
+  "parentId": "6a8d22b2-81f4-43d8-8180-7e5d281511b2",
+  "rootParentId": "7725258c-4e3f-43ca-990b-a3bf35249d37",
+  "name": "Home Insurance - Tenants",
+  "auto": true,
+  "contexts": [
+    "HomeInsurance-custom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "HomeInsurance.HomeInsurance-custom.HomeInsurance-custom-custom",
+      "affectedContexts": [
+        {
+          "name": "HomeInsurance-Tenants-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Even though you are at the rented place. The sweet memories, important occasions are still to be cherished 🌼"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "contentType": "300",
+              "payload": [
+                {
+                  "title": "Yes",
+                  "message": "Please provide us with some details"
+                },
+                {
+                  "message": "Not looking for this plan",
+                  "title": "No"
+                }
+              ],
+              "templateId": "6"
+            },
+            "message": "Interested in this plan?"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

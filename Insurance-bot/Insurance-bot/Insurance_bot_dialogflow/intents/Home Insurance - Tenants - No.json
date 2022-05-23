@@ -1,0 +1,59 @@
+{
+  "id": "c69aff20-93a0-41d7-aac3-c0476ff1d27b",
+  "parentId": "244fa1f3-d93f-407b-b913-ee8ea746c650",
+  "rootParentId": "7725258c-4e3f-43ca-990b-a3bf35249d37",
+  "name": "Home Insurance - Tenants - No",
+  "auto": true,
+  "contexts": [
+    "HomeInsurance-Tenants-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "HomeInsurance.HomeInsurance-custom.HomeInsurance-custom-custom.HomeInsurance-Tenants-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Cool 🙂 You can explore the other plans 👍"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "metadata": {
+              "templateId": "6",
+              "contentType": "300",
+              "payload": [
+                {
+                  "title": "💡Main Menu",
+                  "message": "Main Menu"
+                }
+              ]
+            },
+            "platform": "kommunicate"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

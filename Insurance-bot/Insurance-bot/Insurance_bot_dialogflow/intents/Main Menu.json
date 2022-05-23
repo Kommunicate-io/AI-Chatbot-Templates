@@ -1,0 +1,75 @@
+{
+  "id": "37e7230e-c24b-48ed-81af-f1695836706c",
+  "name": "Main Menu",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "metadata": {
+              "templateId": "7",
+              "contentType": "300",
+              "payload": {
+                "elements": [
+                  {
+                    "imgSrc": "https://images.pexels.com/photos/48604/pexels-photo-48604.jpeg?auto\u003dcompress\u0026cs\u003dtinysrgb\u0026dpr\u003d2\u0026h\u003d650\u0026w\u003d940",
+                    "title": "Life Insurance",
+                    "action": {
+                      "type": "quick_reply",
+                      "text": "Life Insurance"
+                    }
+                  },
+                  {
+                    "action": {
+                      "text": "Home Insurance",
+                      "type": "quick_reply"
+                    },
+                    "title": "Home Insurance",
+                    "imgSrc": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto\u003dcompress\u0026cs\u003dtinysrgb\u0026dpr\u003d2\u0026h\u003d650\u0026w\u003d940"
+                  },
+                  {
+                    "title": "Vehicle Insurance",
+                    "imgSrc": "https://images.pexels.com/photos/1149137/pexels-photo-1149137.jpeg?auto\u003dcompress\u0026cs\u003dtinysrgb\u0026dpr\u003d2\u0026h\u003d650\u0026w\u003d940",
+                    "action": {
+                      "text": "Vehicle Insurance",
+                      "type": "quick_reply"
+                    }
+                  }
+                ],
+                "headerText": "💰Insurance policies, we support"
+              }
+            },
+            "platform": "kommunicate"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

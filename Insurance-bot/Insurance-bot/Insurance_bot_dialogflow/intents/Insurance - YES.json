@@ -1,0 +1,79 @@
+{
+  "id": "129b47d0-8008-4aee-81ca-c6d8ba9f5eda",
+  "parentId": "088567b2-b5e1-4007-81ba-b593c0bf2ccc",
+  "rootParentId": "088567b2-b5e1-4007-81ba-b593c0bf2ccc",
+  "name": "Insurance - YES",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "metadata": {
+              "contentType": "300",
+              "payload": {
+                "headerText": "💰Our insurance policies",
+                "elements": [
+                  {
+                    "imgSrc": "https://images.pexels.com/photos/48604/pexels-photo-48604.jpeg?auto\u003dcompress\u0026cs\u003dtinysrgb\u0026dpr\u003d2\u0026h\u003d650\u0026w\u003d940",
+                    "title": "Life Insurance",
+                    "action": {
+                      "type": "quick_reply",
+                      "text": "Life Insurance"
+                    }
+                  },
+                  {
+                    "action": {
+                      "text": "Home Insurance",
+                      "type": "quick_reply"
+                    },
+                    "title": "Home Insurance",
+                    "imgSrc": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto\u003dcompress\u0026cs\u003dtinysrgb\u0026dpr\u003d2\u0026h\u003d650\u0026w\u003d940"
+                  },
+                  {
+                    "action": {
+                      "text": "Vehicle Insurance",
+                      "type": "quick_reply"
+                    },
+                    "title": "Vehicle Insurance",
+                    "imgSrc": "https://images.pexels.com/photos/1149137/pexels-photo-1149137.jpeg?auto\u003dcompress\u0026cs\u003dtinysrgb\u0026dpr\u003d2\u0026h\u003d650\u0026w\u003d940"
+                  }
+                ]
+              },
+              "templateId": "7"
+            },
+            "platform": "kommunicate"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

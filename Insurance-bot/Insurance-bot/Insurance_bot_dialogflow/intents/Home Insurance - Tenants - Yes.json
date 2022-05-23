@@ -1,0 +1,92 @@
+{
+  "id": "ccf2b43e-7f02-4d40-bcac-a4edae535844",
+  "parentId": "244fa1f3-d93f-407b-b913-ee8ea746c650",
+  "rootParentId": "7725258c-4e3f-43ca-990b-a3bf35249d37",
+  "name": "Home Insurance - Tenants - Yes",
+  "auto": true,
+  "contexts": [
+    "HomeInsurance-Tenants-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "HomeInsurance.HomeInsurance-custom.HomeInsurance-custom-custom.HomeInsurance-Tenants-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "255ed91c-1d1f-4dd2-a5ed-712fcb06b2a1",
+          "name": "given-name",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "value": "$given-name",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Got it, To get things ✔️started. Please let us know your name😊"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "fab962d1-bb68-4814-9a6e-28a70ff0a141",
+          "name": "email",
+          "required": true,
+          "dataType": "@sys.email",
+          "value": "$email",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Thanks $given-name😍, Please provide us with your email address📧 \u0026 mobile number📱 to get in touch with you later."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5ceddc7d-b1e3-4a0b-b5cc-36badd20c80d",
+          "name": "phone-number",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "value": "$phone-number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you $given-name 😃 for choosing the plan. \n\nOne of our representatives will reach out to you as soon as possible and help you with further steps in the policy👍"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
