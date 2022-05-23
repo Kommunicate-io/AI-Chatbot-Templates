@@ -1,0 +1,170 @@
+[
+  {
+    "id": "de01b752-d79a-42ab-a24b-20f37688a743",
+    "data": [
+      {
+        "text": "set an appointment on ",
+        "userDefined": false
+      },
+      {
+        "text": "25th April",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "70fb7c4c-9cbd-4bc9-accd-28b69b58d963",
+    "data": [
+      {
+        "text": "Set an appointment ",
+        "userDefined": false
+      },
+      {
+        "text": "on Friday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " at ",
+        "userDefined": false
+      },
+      {
+        "text": "2pm",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f2d1c7c6-43c0-4915-b747-d81a7200b2b7",
+    "data": [
+      {
+        "text": "Set meeting booking on ",
+        "userDefined": false
+      },
+      {
+        "text": "3rd October",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " at ",
+        "userDefined": false
+      },
+      {
+        "text": "7 am",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "04e4ce29-e53c-4e82-987b-ac9c644dd4ed",
+    "data": [
+      {
+        "text": "I need to book a meeting",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c879a8be-3a45-4412-81cd-ffa4a70f95da",
+    "data": [
+      {
+        "text": "book a meeting",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ca978e66-ebf3-4cdb-8c08-639fb6064a38",
+    "data": [
+      {
+        "text": "schedule a meeting",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f648254d-a9fc-43f1-a187-8ebca679337c",
+    "data": [
+      {
+        "text": "I would like to schedule on ",
+        "userDefined": false
+      },
+      {
+        "text": "April 25, 2020",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4a9bcf2b-b82c-45d5-ba31-105f7345b9ae",
+    "data": [
+      {
+        "text": "My name is ",
+        "userDefined": false
+      },
+      {
+        "text": "Samir",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      },
+      {
+        "text": " and email is ",
+        "userDefined": false
+      },
+      {
+        "text": "test@kommunicate.io",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6877407b-47fb-49c5-a5c3-77ac269d44ad",
+    "data": [
+      {
+        "text": "Schedule Meeting?📆",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "e69b2c64-a60e-4e00-9eb8-3861f111093a",
+    "data": [
+      {
+        "text": "Re-schedule the meeting to ",
+        "userDefined": false
+      },
+      {
+        "text": "25th April 2020",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " at ",
+        "userDefined": false
+      },
+      {
+        "text": "5pm",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ff569842-2c2f-4e35-a106-523d8bb7e9cb",
+    "data": [
+      {
+        "text": "Re-schedule the meeting to ",
+        "userDefined": false
+      },
+      {
+        "text": "April 25, 2020",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " at ",
+        "userDefined": false
+      },
+      {
+        "text": "5pm",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5df569e8-ff66-4a55-b84e-02c20b6b9266",
+    "data": [
+      {
+        "text": "My name is ",
+        "userDefined": false
+      },
+      {
+        "text": "Kevin",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      },
+      {
+        "text": " and email is ",
+        "userDefined": false
+      },
+      {
+        "text": "kevin@kommunicate.io",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

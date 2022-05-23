@@ -1,0 +1,42 @@
+{
+  "id": "891040f9-5ad1-4231-89eb-c80fe9baa7ce",
+  "parentId": "43266629-12d0-46a3-b128-7c5a7c808542",
+  "rootParentId": "43266629-12d0-46a3-b128-7c5a7c808542",
+  "name": "Meeting Booking Bot Intent - ReSchedule Meeting",
+  "auto": true,
+  "contexts": [
+    "MeetingBookingBotIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "MeetingBookingBotIntent.MeetingBookingBotIntent-custom",
+      "affectedContexts": [
+        {
+          "name": "MeetingBookingBotIntent-ReScheduleMeeting-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "☑️ Please mention the below details:\n1. Name 🤵 :\n2. Email 📧 : \n3. Mention the date \u0026 time you would like to re-schedule to 📅 :"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

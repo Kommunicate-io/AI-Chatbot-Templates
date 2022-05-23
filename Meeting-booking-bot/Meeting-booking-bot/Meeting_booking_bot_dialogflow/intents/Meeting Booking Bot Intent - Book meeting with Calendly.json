@@ -1,0 +1,36 @@
+{
+  "id": "397a4912-a4e1-438f-a243-28bc045047fc",
+  "parentId": "43266629-12d0-46a3-b128-7c5a7c808542",
+  "rootParentId": "43266629-12d0-46a3-b128-7c5a7c808542",
+  "name": "Meeting Booking Bot Intent - Book meeting with Calendly",
+  "auto": true,
+  "contexts": [
+    "MeetingBookingBotIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "MeetingBookingBotIntent.MeetingBookingBotIntent-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "If you are looking to schedule a meeting 🤝, please click on the link provided and book a slot 🎯\n\nhttps://calendly.com/kommunicate/"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
