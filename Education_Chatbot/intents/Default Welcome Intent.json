@@ -1,0 +1,84 @@
+{
+  "id": "a16d1ff9-e101-4659-975c-bb5bc9988e30",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "DefaultWelcomeIntent-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hi, I\u0027m Admissions Chatbot 🎓\n\nLet\u0027s talk about admissions. Use the below 👇 options and proceed!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "metadata": {
+              "templateId": "6",
+              "contentType": "300",
+              "payload": [
+                {
+                  "title": "💰Cost to Attend",
+                  "message": "Cost to Attend"
+                },
+                {
+                  "message": "Freshman \u0026 First-Time",
+                  "title": "1️⃣Freshman \u0026 First-Time"
+                },
+                {
+                  "message": "Sign Up for orientation",
+                  "title": "🔑Sign Up for orientation"
+                },
+                {
+                  "message": "Transfer Student",
+                  "title": "🔁Transfer Student"
+                },
+                {
+                  "title": "👨‍⚖️Veteran Admission",
+                  "message": "Veteran Admission"
+                },
+                {
+                  "title": "⏲️Admission Deadlines",
+                  "message": "Admission Deadlines"
+                }
+              ]
+            },
+            "platform": "kommunicate"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

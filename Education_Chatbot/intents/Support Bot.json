@@ -1,0 +1,63 @@
+{
+  "id": "680b8a9e-cfd2-4346-b6e4-1a7cb1358f84",
+  "name": "Support Bot",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please click any of the option and proceed!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "payload": [
+                {
+                  "message": "Virtual Labs",
+                  "title": "Virtual Labs"
+                },
+                {
+                  "title": "Laptop Lending",
+                  "message": "Laptop Lending"
+                },
+                {
+                  "message": "Knowledgebase Articles",
+                  "title": "Knowledgebase Articles"
+                }
+              ],
+              "contentType": "300",
+              "templateId": "6"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,177 @@
+{
+  "id": "f2cce852-190b-45c9-894a-ecdf0c58f849",
+  "name": "Transfer Student",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "message": "Scroll through Transfer Facts:",
+            "platform": "kommunicate",
+            "metadata": {
+              "templateId": "10",
+              "contentType": "300",
+              "payload": [
+                {
+                  "titleExt": "Transfer Fact #1",
+                  "buttons": [
+                    {
+                      "action": {
+                        "payload": {
+                          "url": "https://www.kommunicate.io/product/kompose-bot-builder/"
+                        },
+                        "type": "link"
+                      },
+                      "name": "Click for more Transfer Information"
+                    }
+                  ],
+                  "description": "",
+                  "header": "",
+                  "title": "",
+                  "subtitle": "University will only accept units from regionally-accredited institutions. It has agreements with State Community Colleges that allow students to transfer specific classes to meet our university general education and lower-division major requirements. Use assist.org, if you don’t see your school there, you might need an appointment with a counselor."
+                },
+                {
+                  "buttons": [
+                    {
+                      "name": "Click for more Transfer Information",
+                      "action": {
+                        "type": "link",
+                        "payload": {
+                          "url": "https://assist.org/"
+                        }
+                      }
+                    }
+                  ],
+                  "description": "",
+                  "titleExt": "Transfer Fact #1 cont.",
+                  "subtitle": "Private/ independent colleges and out-of-state institutions do not hold these same agreements, and though the university will accept units from these schools, a student must speak with the Office of Admissions to find if the classes they have taken will be considered transferable to our university",
+                  "header": "",
+                  "title": ""
+                },
+                {
+                  "header": "",
+                  "description": "",
+                  "buttons": [
+                    {
+                      "action": {
+                        "type": "link",
+                        "payload": {
+                          "url": "https://www.kommunicate.io/product/kompose-bot-builder/"
+                        }
+                      },
+                      "name": "Click for More Transfer Information"
+                    }
+                  ],
+                  "subtitle": "Complete or will complete at least 30 semester units or 45 quarter units of courses in the general education requirements with a grade of “C-” or better",
+                  "title": "",
+                  "titleExt": "Transfer Fact #2"
+                },
+                {
+                  "header": "",
+                  "title": "",
+                  "description": "",
+                  "buttons": [
+                    {
+                      "name": "Click for More Transfer Information",
+                      "action": {
+                        "type": "link",
+                        "payload": {
+                          "url": "https://www.kommunicate.io/product/kompose-bot-builder/"
+                        }
+                      }
+                    }
+                  ],
+                  "subtitle": "To be considered eligible as an upper division transfer student, applicants must meet the following:60 transferable semester or 90 transferable quarter units at a regionally accredited* community college or university",
+                  "titleExt": "Transfer Fact #3"
+                },
+                {
+                  "title": "",
+                  "description": "",
+                  "titleExt": "Transfer Fact #4",
+                  "subtitle": "The state residents must have a transferable grade-point average of 2.0 (“C-”) or better.",
+                  "buttons": [
+                    {
+                      "action": {
+                        "type": "link",
+                        "payload": {
+                          "url": "https://www.kommunicate.io/product/kompose-bot-builder/"
+                        }
+                      },
+                      "name": "Click for More Transfer Information"
+                    }
+                  ],
+                  "header": ""
+                },
+                {
+                  "title": "",
+                  "buttons": [
+                    {
+                      "name": "Click for More Transfer Information",
+                      "action": {
+                        "type": "link",
+                        "payload": {
+                          "url": "https://www.kommunicate.io/product/kompose-bot-builder/"
+                        }
+                      }
+                    }
+                  ],
+                  "subtitle": "Complete the following four basic skills courses with a grade of C- or better in each course:  English Composition, Critical Thinking, Speech/Oral Communication, College Algebra (or baccalaureate level transferable math course equivalent).",
+                  "description": "",
+                  "titleExt": "Transfer Fact #5",
+                  "header": ""
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "contentType": "300",
+              "payload": [
+                {
+                  "title": "Main Menu",
+                  "message": "Main Menu"
+                }
+              ],
+              "templateId": "6"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

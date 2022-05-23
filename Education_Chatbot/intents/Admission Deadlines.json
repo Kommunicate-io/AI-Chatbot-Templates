@@ -1,0 +1,71 @@
+{
+  "id": "5ffeb541-e50c-4012-8db5-498a9f905e25",
+  "name": "Admission Deadlines",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Due to impaction, our University only accepts applications during its initial filing periods. The application filing periods for Fall are: October 1 – November 30. \nTo complete your admissions application, you must submit:\n \n✔️ Your application a year prior to starting on Cal State Apply.\n✔️ Application fee of $70 or fee waiver. This fee is nonrefundable and may not be transferred to another term.\n✔️ Official high school transcripts or college transcripts\n✔️ Residency Documents (if requested)\n\nFor more information regarding Admissions and Enrollment deadlines, please refer to our website: http://kommunicate.io/blog"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "templateId": "6",
+              "payload": [
+                {
+                  "message": "Cost to Attend",
+                  "title": "Cost to Attend"
+                },
+                {
+                  "message": "Freshman \u0026 First-Time",
+                  "title": "Freshman \u0026 First-Time"
+                },
+                {
+                  "title": "Sign Up for orientation",
+                  "message": "Sign Up for orientation"
+                },
+                {
+                  "title": "Transfer Student",
+                  "message": "Transfer Student"
+                },
+                {
+                  "title": "Veteran Admission",
+                  "message": "Veteran Admission"
+                }
+              ],
+              "contentType": "300"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

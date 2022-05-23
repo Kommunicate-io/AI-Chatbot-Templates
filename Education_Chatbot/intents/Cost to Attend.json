@@ -1,0 +1,55 @@
+{
+  "id": "3490a1d5-56d4-4a75-a1a1-4b2461f7a446",
+  "name": "Cost to Attend",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "✔️ Tuition and other college expenses are charged at varying rates depending on your unit enrollment, options, and degree type. \n\n✔️ Because of the number of variables involved in each specific case, there is no way to estimate your expenses or if financial aid, grants or scholarships will cover part or all costs. \n\n✔️ I recommend trying to estimate costs using the Net Price Calculator or starting an expenses spreadsheet while referencing the Tuition and Fees Site on the student financial services department website"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "contentType": "300",
+              "templateId": "6",
+              "payload": [
+                {
+                  "message": "Main Menu",
+                  "title": "Main Menu"
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
