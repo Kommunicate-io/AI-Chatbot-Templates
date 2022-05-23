@@ -1,0 +1,187 @@
+{
+	"intents": [
+		{
+			"content": [
+				{
+					"message": "Awesome😃 Let's move forward with the Final question❓\n\nPlease select the service that you need help from us!"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "💻Web Development",
+								"action": {
+									"type": "quickReply",
+									"message": "💻Web Development"
+								}
+							},
+							{
+								"name": "💸Digital Marketing",
+								"action": {
+									"type": "quickReply",
+									"message": "💸Digital Marketing"
+								}
+							},
+							{
+								"name": "🏠Mortgage Services",
+								"action": {
+									"type": "quickReply",
+									"message": "🏠Mortgage Services"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Phone Number",
+			"fields": {
+				"phoneNumber": "@KOMPOSE_DEFAULT_ENTITY.PHONE_NUMBER"
+			},
+			"trainingPhrases": [
+				"Number is %7899873241%",
+				"Phone Number is %7599473241%",
+				"phone is %7290473243%",
+				"number is %7597872241%",
+				"mobile number is 7895678882"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Thanks 😍 for providing your $email!\n\nAlso, let us know your ☎️ phone number\n\nExample Format] Phone number is 7890123431"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Email",
+			"fields": {
+				"email": "@KOMPOSE_DEFAULT_ENTITY.EMAIL"
+			},
+			"trainingPhrases": [
+				"alex@gmil.com",
+				"kevin@gmail.com",
+				"shahid@gmail.com"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "👋🏻Hey there! Thanks for getting in touch with us!\n\nTo get things ✔️started, Could you please provide us with some details.\n\n**\nPlease type \"Yes\" or \"Sure\" or \"Ok\""
+				}
+			],
+			"urlPatternList": [],
+			"category": "welcome_event",
+			"name": "Default Welcome Intent",
+			"trainingPhrases": []
+		},
+		{
+			"content": [
+				{
+					"message": "May I know your Email😊 , please"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Welcome Message - FollowUp",
+			"trainingPhrases": [
+				"sure",
+				"Sure",
+				"ok",
+				"okay",
+				"yes",
+				"cool",
+				"fine",
+				"of course",
+				"Yes I can",
+				"Ok",
+				"Yes",
+				"YES"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "That's all❗ Thank you😃. We'll reach out to you at your phone number as soon as possible and help in growing your Business👍"
+				},
+				{
+					"metadata": {
+						"payload": [
+							{
+								"description": "Developed mortgage software which handle risk assessment, credit pulls, claims management, title services",
+								"title": "Software Development",
+								"header": {
+									"imgSrc": "https://images.unsplash.com/flagged/photo-1558954157-aa76c0d246c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80"
+								},
+								"buttons": [
+									{
+										"name": "Read More",
+										"action": {
+											"payload": {
+												"url": "https://www.kommunicate.io/blog/how-to-make-a-chatbot/"
+											},
+											"type": "link"
+										}
+									}
+								]
+							},
+							{
+								"title": "Marketing",
+								"header": {
+									"imgSrc": "https://images.unsplash.com/photo-1533750349088-cd871a92f312?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+								},
+								"description": "Helped to increase the mortage leads with SEO and social media marketing",
+								"buttons": [
+									{
+										"name": "Read More",
+										"action": {
+											"type": "link",
+											"payload": {
+												"url": "https://www.kommunicate.io/blog/ecommerce-chatbots/"
+											}
+										}
+									}
+								]
+							},
+							{
+								"buttons": [
+									{
+										"name": "Read More",
+										"action": {
+											"type": "link",
+											"payload": {
+												"url": "https://www.kommunicate.io/blog/facebook-messenger-customer-service/"
+											}
+										}
+									}
+								],
+								"description": "Best mortage service fully automated form filling process, REO and valuation tool for pursuing home equity lines of credit and collection efforts",
+								"title": "Mortage BPO",
+								"header": {
+									"imgSrc": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=666&q=80"
+								}
+							}
+						],
+						"templateId": "10",
+						"contentType": "300"
+					},
+					"message": "⭐Meanwhile take a look at our previous project works🤩",
+					"platform": "kommunicate"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "FINAL - Services",
+			"trainingPhrases": [
+				"💻Web Development",
+				"💸Digital Marketing",
+				"🏠Mortgage Services"
+			]
+		}
+	]
+}

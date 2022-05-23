@@ -1,0 +1,274 @@
+[
+  {
+    "id": "c8cab882-d35e-4ee0-b47f-1a1a7dffb657",
+    "data": [
+      {
+        "text": "I want to develop a website for my real estate and mortgage business",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1df434df-6620-4afe-b523-ac65625c8b43",
+    "data": [
+      {
+        "text": "I want to ",
+        "userDefined": false
+      },
+      {
+        "text": "grow my business",
+        "alias": "CustomerBusinessRequirement",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      },
+      {
+        "text": " and need ",
+        "userDefined": false
+      },
+      {
+        "text": "help in marketing",
+        "alias": "CustomerBusinessRequirement",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a88215e4-a23a-426b-92e8-0efb1ebb37b5",
+    "data": [
+      {
+        "text": "I want to ",
+        "userDefined": false
+      },
+      {
+        "text": "develop a website",
+        "alias": "CustomerBusinessRequirement",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      },
+      {
+        "text": " for my real estate and mortgage business",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "14861c0d-faea-4b42-9cdb-82682e0173e0",
+    "data": [
+      {
+        "text": "my email is ",
+        "userDefined": false
+      },
+      {
+        "text": "alex@gmail.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      },
+      {
+        "text": " and phone number is ",
+        "userDefined": false
+      },
+      {
+        "text": "7689678123",
+        "alias": "phone-number",
+        "meta": "@sys.phone-number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "21c3cf3b-3296-4d4e-a7a3-efea09baf824",
+    "data": [
+      {
+        "text": "Got it! Let\u0027s move ",
+        "userDefined": false
+      },
+      {
+        "text": "forward",
+        "alias": "FinalStep",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "eb1cc5b9-cffb-46a8-b7e5-9d2806f9e07a",
+    "data": [
+      {
+        "text": "samsung",
+        "alias": "business",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "75a2f388-3874-4415-bea8-ddcb2e47318e",
+    "data": [
+      {
+        "text": "kommunicate",
+        "alias": "FinalStep",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "07d6de00-7012-413d-9ab7-5352d0f25640",
+    "data": [
+      {
+        "text": "Sure I can provide",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b137a740-a9ac-4562-8cea-c4d337c0e7ed",
+    "data": [
+      {
+        "text": "Okay",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2e00dcb0-bf54-471d-a3b9-3f7d926f6d3b",
+    "data": [
+      {
+        "text": "Sure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "68ccccd4-a6c9-431a-b03b-652f28942f5c",
+    "data": [
+      {
+        "text": "email is ",
+        "userDefined": false
+      },
+      {
+        "text": "alex@gmail.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2110b087-778f-437e-85aa-63ddab95fd92",
+    "data": [
+      {
+        "text": "my name is ",
+        "userDefined": false
+      },
+      {
+        "text": "alex",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      },
+      {
+        "text": " and email id is ",
+        "userDefined": false
+      },
+      {
+        "text": "alex@gmail.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "70482bd6-ebd3-4957-b7bf-f656161fc60f",
+    "data": [
+      {
+        "text": "Alex",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e3ac6323-a353-4ca9-952a-8b428d60b6c9",
+    "data": [
+      {
+        "text": "name is ",
+        "userDefined": false
+      },
+      {
+        "text": "alex",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "acb9d04d-5447-4cc3-8f62-902066ed57d6",
+    "data": [
+      {
+        "text": "my name is ",
+        "userDefined": false
+      },
+      {
+        "text": "tony",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
