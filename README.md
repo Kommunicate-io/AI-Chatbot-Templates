@@ -15,4 +15,4 @@ Chatbots, sometimes known as virtual assistants, aid in the automation of key co
 **Education Chatbot-** For any college, university, or e-learning platform, swift communication is crucial for converting prospective applicants into enrolled students and supporting existing students, faculty, and staff.<br><br>
 **Insurance Chatbot-** Insurance chatbots are capable of finding the right product and the correct quote in an instant. The chatbot is also highly user-friendly and improves customer engagement.<br><br>
 **Banking Chatbot-** Banking chatbots can help financial or banking sectors engage with their customers and members in the right way and at the right place and time, improving customer experience.<br><br>
-**Meeting Booking Vhatbot-** The meeting booking chatbot helps your users quickly book meetings with your team. It can schedule, reschedule appointments within minutes, which can save time.
+**Meeting Booking Chatbot-** The meeting booking chatbot helps your users quickly book meetings with your team. It can schedule, reschedule appointments within minutes, which can save time.
