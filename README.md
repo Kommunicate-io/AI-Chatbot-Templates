@@ -1,4 +1,4 @@
-# How to create a Chatbot using AI Chatbot Templates?
+# AI Chatbot Templates
 
 Chatbots, sometimes known as virtual assistants, aid in the automation of key corporate operations such as sales, customer service, and marketing. Here are the six major steps that will guide you through how to create your own chatbot to provide conversational support to your clients.
 
