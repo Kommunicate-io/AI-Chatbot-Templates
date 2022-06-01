@@ -41,7 +41,7 @@ AI chatbot can help to Automate customer conversations in various industries suc
 Below is the list free AI Chatbot Templates that you can use to create your bot.
 
 
-**Lead Collection Chatbot** 
+**[Lead Collection Chatbot](https://github.com/Kommunicate-io/AI-Chatbot-Templates/tree/main/Lead-Collection-Chatbot/lead_collection_bot)** 
 Generating leads is one of the most important goals for any business. Lead collection chatbot can replace boring and cluttered forms with conversational and interactive interfaces.
 
 
