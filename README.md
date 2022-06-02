@@ -45,25 +45,25 @@ Below is the list free AI Chatbot Templates that you can use to create your bot.
 Generating leads is one of the most important goals for any business. Lead collection chatbot can replace boring and cluttered forms with conversational and interactive interfaces.
 
 
-**Food Ordering Chatbot**
+**[Food Ordering Chatbot](https://github.com/Kommunicate-io/AI-Chatbot-Templates/tree/main/Food-Ordering-Chatbot/Food-ordering-bot)**
 Food ordering chatbots can change how we order food online by making the entire ordering process much more straightforward and effortless and more likely to be repeated by the customers.
 
 
-**E-commerce Chatbot** 
+**[E-commerce Chatbot](https://github.com/Kommunicate-io/AI-Chatbot-Templates/tree/main/Ecommerce-Chatbot/Ecommerce-Bot)** 
 E-commerce chatbots can recommend products to your users based on their requests, previous history and provide tracking, support, and other information for their orders.
 
 
-**Education Chatbot** 
+**[Education Chatbot](https://github.com/Kommunicate-io/AI-Chatbot-Templates/tree/main/Education-Chatbot)** 
 For any college, university, or e-learning platform, swift communication is crucial for converting prospective applicants into enrolled students and supporting existing students, faculty, and staff.
 
 
-**Insurance Chatbot** 
+**[Insurance Chatbot](https://github.com/Kommunicate-io/AI-Chatbot-Templates/tree/main/Insurance-Chatbot/Insurance-bot)** 
 Insurance chatbots are capable of finding the right product and the correct quote in an instant. The chatbot is also highly user-friendly and improves customer engagement.
 
 
-**Banking Chatbot** 
+**[Banking Chatbot](https://github.com/Kommunicate-io/AI-Chatbot-Templates/tree/main/Banking-Chatbot)** 
 Banking chatbots can help financial or banking sectors engage with their customers and members in the right way and at the right place and time, improving customer experience.
 
 
-**Meeting Booking Chatbot** 
+**[Meeting Booking Chatbot](https://github.com/Kommunicate-io/AI-Chatbot-Templates/tree/main/Meeting-Booking-Chatbot/Meeting-booking-bot)** 
 The meeting booking chatbot helps your users quickly book meetings with your team. It can schedule, reschedule appointments within minutes, which can save time.
