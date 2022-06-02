@@ -1,4 +1,7 @@
-# Create a Lead Collection Chatbot using Template
+ #Lead-Collection-AI-Chatbot-Template
+ **Generating leads is one of the most important goals for any business. Lead collection chatbot can replace boring and cluttered forms with conversational and interactive interfaces.**
+ 
+ ![alt text](https://github.com/Kommunicate-io/AI-Chatbot-Templates/blob/main/Lead-Collection-Chatbot/lead_collection_bot/Lead%20collection.png)
 
 
 Lead_collection_bot_kompose.json contains a ready to use chatbot template for Lead Collection. It works with Kommunicate, find the step belows on setting it up.
