@@ -4,7 +4,7 @@
  
  Lead_collection_bot_kompose.json contains a ready to use chatbot template for Lead Collection. It works with Kommunicate, find the step belows on setting it up.
 
-Step 1. Download [Lead Collection Chatbot Template](https://raw.githubusercontent.com/Kommunicate-io/AI-Chatbot-Templates/main/Lead-Collection-Chatbot/lead_collection_bot/Lead_collection_bot_kompose.json?token=GHSAT0AAAAAABMKOQWG5CR7YMIIQRH7SRSMYUYR27Q)
+Step 1. Download [Lead Collection Chatbot Template] (https://raw.githubusercontent.com/Kommunicate-io/AI-Chatbot-Templates/main/Lead-Collection-Chatbot/lead_collection_bot/Lead_collection_bot_kompose.json)
 
 Step 2. Signup at [Kommunicate](https://www.kommunicate.io/product/kompose-bot-builder?utm_source=github&utm_campaign=chatbot_templates)
 
