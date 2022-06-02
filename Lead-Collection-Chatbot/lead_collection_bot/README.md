@@ -1,4 +1,5 @@
- #Lead-Collection-AI-Chatbot-Template
+ # Lead-Collection-AI-Chatbot-Template
+ 
  **Generating leads is one of the most important goals for any business. Lead collection chatbot can replace boring and cluttered forms with conversational and interactive interfaces.**
  
  ![alt text](https://github.com/Kommunicate-io/AI-Chatbot-Templates/blob/main/Lead-Collection-Chatbot/lead_collection_bot/Lead%20collection.png)
