@@ -20,6 +20,6 @@ Now, refresh the page, and test the chatbot
 ## Meeting Booking Chatbot Preview
 
  
-![alt text](https://github.com/Kommunicate-io/AI-Chatbot-Templates/blob/main/Meeting-Booking-Chatbot/Meeting-booking-bot/Meeting%20Book.png)
+![alt text](https://github.com/Kommunicate-io/AI-Chatbot-Templates/blob/main/Meeting-Booking-Chatbot/Meeting%20Book.png)
 
 
