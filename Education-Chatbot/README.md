@@ -16,5 +16,5 @@ Now, refresh the page, and test the chatbot
 
 
 
-## Education chatbot preview
+## Education Chatbot Preview
 ![alt text](https://github.com/Kommunicate-io/AI-Chatbot-Templates/blob/main/Education-Chatbot/Education%20Bot.png)
