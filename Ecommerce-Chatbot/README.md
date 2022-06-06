@@ -16,7 +16,7 @@ Now, refresh the page, and test the chatbot
 
 
 
-## Ecommerce chatbot preview
+## Ecommerce Chatbot Preview
 
 
 ![alt text](https://github.com/Kommunicate-io/AI-Chatbot-Templates/blob/main/Ecommerce-Chatbot/Ecommerce%20bot.png)
