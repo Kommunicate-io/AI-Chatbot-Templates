@@ -19,6 +19,10 @@ Now, refresh the page, and test the chatbot
 ## Lead Collection Chatbot Preview
 
  ![Lead collection chatbot preview](https://github.com/Kommunicate-io/AI-Chatbot-Templates/blob/main/Lead-Collection-Chatbot/Lead%20collection.png)
+ 
+ 
+ 
+ **Lead Collection AI-Chatbot templates are provided by** [Kommunicate](https://www.kommunicate.io/?utm_source=github&utm_campaign=chatbot_templates)
 
 
 
