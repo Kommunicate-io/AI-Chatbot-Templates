@@ -19,3 +19,7 @@ Now, refresh the page, and test the chatbot
 ## Banking chatbot preview
 
 ![alt text](https://github.com/Kommunicate-io/AI-Chatbot-Templates/blob/main/Banking-Chatbot/Banking%20Bot.png)
+
+
+
+**Banking AI-Chatbot templates are provided by** [Kommunicate](https://www.kommunicate.io/?utm_source=github&utm_campaign=chatbot_templates)
