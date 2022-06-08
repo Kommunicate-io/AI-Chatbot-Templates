@@ -20,3 +20,5 @@ Now, refresh the page, and test the chatbot
 
 
 ![alt text](https://github.com/Kommunicate-io/AI-Chatbot-Templates/blob/main/Ecommerce-Chatbot/Ecommerce%20bot.png)
+
+**Ecommerce AI-Chatbot templates are provided by** [Kommunicate](https://www.kommunicate.io/?utm_source=github&utm_campaign=chatbot_templates)
