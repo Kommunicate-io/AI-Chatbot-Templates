@@ -16,7 +16,7 @@ Now, refresh the page, and test the chatbot
 
 
 
-## Banking chatbot preview
+## Banking Chatbot Preview
 
 ![alt text](https://github.com/Kommunicate-io/AI-Chatbot-Templates/blob/main/Banking-Chatbot/Banking%20Bot.png)
 
