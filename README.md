@@ -68,4 +68,5 @@ Banking chatbots can help financial or banking sectors engage with their custome
 **[Meeting Booking Chatbot](https://github.com/Kommunicate-io/AI-Chatbot-Templates/tree/main/Meeting-Booking-Chatbot)** 
 The meeting booking chatbot helps your users quickly book meetings with your team. It can schedule, reschedule appointments within minutes, which can save time.
 
-**Chatbot templates are provided by**[Kommunicate](https://www.kommunicate.io/?utm_source=github&utm_campaign=chatbot_templates)
+
+**AI-Chatbot templates are provided by** [Kommunicate](https://www.kommunicate.io/?utm_source=github&utm_campaign=chatbot_templates)
