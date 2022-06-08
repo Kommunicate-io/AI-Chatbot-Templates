@@ -23,3 +23,7 @@ Now, refresh the page, and test the chatbot
 ![alt text](https://github.com/Kommunicate-io/AI-Chatbot-Templates/blob/main/Meeting-Booking-Chatbot/Meeting%20Book.png)
 
 
+
+**Meeting Booking AI-Chatbot templates are provided by** [Kommunicate](https://www.kommunicate.io/?utm_source=github&utm_campaign=chatbot_templates)
+
+
