@@ -1,361 +1,359 @@
 {
-	"intents": [
-		{
-			"content": [
-				{
-					"message": "Please share the last 4 digits of your debit card"
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Balance",
-			"trainingPhrases": [
-				"Check account Balance"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "Please share the contact number linked to an account"
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Last_3 transctions",
-			"trainingPhrases": [
-				"Check last 3 transactions"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "Can you please share the last 6 digits of your credit card?"
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Check credit card-limit",
-			"trainingPhrases": [
-				"Check credit card limit"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "Which bill would you like to pay?"
-				},
-				{
-					"message": "Please pick a category from the list to pay your bills:"
-				},
-				{
-					"message": "",
-					"platform": "kommunicate",
-					"metadata": {
-						"contentType": "300",
-						"templateId": "6",
-						"payload": [
-							{
-								"title": "Electricity ⚡️",
-								"message": "Electricity ⚡️"
-							}
-						]
-					}
-				},
-				{
-					"message": "",
-					"platform": "kommunicate",
-					"metadata": {
-						"contentType": "300",
-						"templateId": "6",
-						"payload": [
-							{
-								"title": "Gas 🔥",
-								"message": "Gas 🔥"
-							}
-						]
-					}
-				},
-				{
-					"message": "",
-					"platform": "kommunicate",
-					"metadata": {
-						"contentType": "300",
-						"templateId": "6",
-						"payload": [
-							{
-								"title": "Mobile Postpaid 📱",
-								"message": "Mobile Postpaid 📱"
-							}
-						]
-					}
-				},
-				{
-					"message": "",
-					"platform": "kommunicate",
-					"metadata": {
-						"contentType": "300",
-						"templateId": "6",
-						"payload": [
-							{
-								"title": "DTH 📺",
-								"message": "DTH 📺"
-							}
-						]
-					}
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Paybills",
-			"trainingPhrases": [
-				"Pay bills"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "Please select the type of card"
-				},
-				{
-					"message": "",
-					"platform": "kommunicate",
-					"metadata": {
-						"contentType": "300",
-						"templateId": "6",
-						"payload": [
-							{
-								"title": "Credit card",
-								"message": "Credit card"
-							}
-						]
-					}
-				},
-				{
-					"message": "",
-					"platform": "kommunicate",
-					"metadata": {
-						"contentType": "300",
-						"templateId": "6",
-						"payload": [
-							{
-								"title": "Debit card",
-								"message": "Debit card"
-							}
-						]
-					}
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "cards",
-			"trainingPhrases": [
-				"Cards"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "I'd love to help you avail Instant loans!"
-				},
-				{
-					"message": "You don't have instant loans approved at the moment.\n\nYou can always apply for loans on our website"
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Loans",
-			"trainingPhrases": [
-				"Instant loans"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "We're always here to help you with the Banking Services. What would you like to do?"
-				},
-				{
-					"message": "",
-					"platform": "kommunicate",
-					"metadata": {
-						"contentType": "300",
-						"templateId": "6",
-						"payload": [
-							{
-								"title": "Check account Balance",
-								"message": "Check account Balance"
-							}
-						]
-					}
-				},
-				{
-					"message": "",
-					"platform": "kommunicate",
-					"metadata": {
-						"contentType": "300",
-						"templateId": "6",
-						"payload": [
-							{
-								"title": "Check last 3 transactions",
-								"message": "Check last 3 transactions"
-							}
-						]
-					}
-				},
-				{
-					"message": "",
-					"platform": "kommunicate",
-					"metadata": {
-						"contentType": "300",
-						"templateId": "6",
-						"payload": [
-							{
-								"title": "Check credit card limit",
-								"message": "Check credit card limit"
-							}
-						]
-					}
-				},
-				{
-					"message": "",
-					"platform": "kommunicate",
-					"metadata": {
-						"contentType": "300",
-						"templateId": "6",
-						"payload": [
-							{
-								"title": "Others",
-								"message": "Others"
-							}
-						]
-					}
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Bankingservices",
-			"trainingPhrases": [
-				"Banking services",
-				"please tell about banking services"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "Hi, how can I help you today?"
-				},
-				{
-					"message": "",
-					"platform": "kommunicate",
-					"metadata": {
-						"contentType": "300",
-						"templateId": "11",
-						"payload": [
-							{
-								"name": "Banking services 🏦",
-								"action": {
-									"type": "quickReply",
-									"message": "Banking services 🏦"
-								}
-							},
-							{
-								"name": "Tax",
-								"action": {
-									"type": "quickReply",
-									"message": "Tax"
-								}
-							}
-						]
-					}
-				},
-				{
-					"message": "",
-					"platform": "kommunicate",
-					"metadata": {
-						"contentType": "300",
-						"templateId": "11",
-						"payload": [
-							{
-								"name": "Instant Loans ⏱️",
-								"action": {
-									"type": "quickReply",
-									"message": "Instant Loans ⏱️"
-								}
-							}
-						]
-					}
-				},
-				{
-					"message": "",
-					"platform": "kommunicate",
-					"metadata": {
-						"contentType": "300",
-						"templateId": "11",
-						"payload": [
-							{
-								"name": "Cards 💳",
-								"action": {
-									"type": "quickReply",
-									"message": "Cards 💳"
-								}
-							}
-						]
-					}
-				},
-				{
-					"message": "",
-					"platform": "kommunicate",
-					"metadata": {
-						"contentType": "300",
-						"templateId": "11",
-						"payload": [
-							{
-								"name": "Pay bill 💸 ",
-								"action": {
-									"type": "quickReply",
-									"message": "Pay bill 💸 "
-								}
-							}
-						]
-					}
-				},
-				{
-					"message": "",
-					"platform": "kommunicate",
-					"metadata": {
-						"contentType": "300",
-						"templateId": "11",
-						"payload": [
-							{
-								"name": "Credit Card",
-								"action": {
-									"type": "quickReply",
-									"message": "Credit Card"
-								}
-							}
-						]
-					}
-				}
-			],
-			"urlPatternList": [],
-			"category": "welcome_event",
-			"name": "Default Welcome Intent",
-			"trainingPhrases": []
-		},
-		{
-			"content": [
-				{
-					"message": "Hey it starts at $30"
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Pricing",
-			"trainingPhrases": [
-				"pricing",
-				"cost of the product",
-				"billing",
-				"invoice"
-			]
-		}
-	]
+  "intents": [
+    {
+      "content": [
+        {
+          "message": "Please share the last 4 digits of your debit card"
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Balance",
+      "trainingPhrases": ["Check account Balance"]
+    },
+    {
+      "content": [
+        {
+          "message": "Please share the contact number linked to an account"
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Last_3 transctions",
+      "trainingPhrases": ["Check last 3 transactions"]
+    },
+    {
+      "content": [
+        {
+          "message": "Can you please share the last 6 digits of your credit card?"
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Check credit card-limit",
+      "trainingPhrases": ["Check credit card limit"]
+    },
+    {
+      "content": [
+        {
+          "message": "Which bill would you like to pay?"
+        },
+        {
+          "message": "Please pick a category from the list to pay your bills:"
+        },
+        {
+          "message": "",
+          "platform": "kommunicate",
+          "metadata": {
+            "contentType": "300",
+            "templateId": "6",
+            "payload": [
+              {
+                "title": "Electricity ⚡️",
+                "message": "Electricity ⚡️"
+              }
+            ]
+          }
+        },
+        {
+          "message": "",
+          "platform": "kommunicate",
+          "metadata": {
+            "contentType": "300",
+            "templateId": "6",
+            "payload": [
+              {
+                "title": "Gas 🔥",
+                "message": "Gas 🔥"
+              }
+            ]
+          }
+        },
+        {
+          "message": "",
+          "platform": "kommunicate",
+          "metadata": {
+            "contentType": "300",
+            "templateId": "6",
+            "payload": [
+              {
+                "title": "Mobile Postpaid 📱",
+                "message": "Mobile Postpaid 📱"
+              }
+            ]
+          }
+        },
+        {
+          "message": "",
+          "platform": "kommunicate",
+          "metadata": {
+            "contentType": "300",
+            "templateId": "6",
+            "payload": [
+              {
+                "title": "DTH 📺",
+                "message": "DTH 📺"
+              }
+            ]
+          }
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Paybills",
+      "trainingPhrases": ["Pay bills"]
+    },
+    {
+      "content": [
+        {
+          "message": "Please select the type of card"
+        },
+        {
+          "message": "",
+          "platform": "kommunicate",
+          "metadata": {
+            "contentType": "300",
+            "templateId": "6",
+            "payload": [
+              {
+                "title": "Credit card",
+                "message": "Credit card"
+              }
+            ]
+          }
+        },
+        {
+          "message": "",
+          "platform": "kommunicate",
+          "metadata": {
+            "contentType": "300",
+            "templateId": "6",
+            "payload": [
+              {
+                "title": "Debit card",
+                "message": "Debit card"
+              }
+            ]
+          }
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "cards",
+      "trainingPhrases": ["Cards"]
+    },
+    {
+      "content": [
+        {
+          "message": "I'd love to help you avail Instant loans!"
+        },
+        {
+          "message": "You don't have instant loans approved at the moment.\n\nYou can always apply for loans on our website"
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Loans",
+      "trainingPhrases": ["Instant loans"]
+    },
+    {
+      "content": [
+        {
+          "message": "We're always here to help you with the Banking Services. What would you like to do?"
+        },
+        {
+          "message": "",
+          "platform": "kommunicate",
+          "metadata": {
+            "contentType": "300",
+            "templateId": "6",
+            "payload": [
+              {
+                "title": "Check account Balance",
+                "message": "Check account Balance"
+              }
+            ]
+          }
+        },
+        {
+          "message": "",
+          "platform": "kommunicate",
+          "metadata": {
+            "contentType": "300",
+            "templateId": "6",
+            "payload": [
+              {
+                "title": "Check last 3 transactions",
+                "message": "Check last 3 transactions"
+              }
+            ]
+          }
+        },
+        {
+          "message": "",
+          "platform": "kommunicate",
+          "metadata": {
+            "contentType": "300",
+            "templateId": "6",
+            "payload": [
+              {
+                "title": "Check credit card limit",
+                "message": "Check credit card limit"
+              }
+            ]
+          }
+        },
+        {
+          "message": "",
+          "platform": "kommunicate",
+          "metadata": {
+            "contentType": "300",
+            "templateId": "6",
+            "payload": [
+              {
+                "title": "Others",
+                "message": "Others"
+              }
+            ]
+          }
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Bankingservices",
+      "trainingPhrases": [
+        "Banking services",
+        "please tell about banking services"
+      ]
+    },
+    {
+      "content": [
+        {
+          "message": "Hi, how can I help you today?"
+        },
+        {
+          "message": "",
+          "platform": "kommunicate",
+          "metadata": {
+            "contentType": "300",
+            "templateId": "11",
+            "payload": [
+              {
+                "name": "Banking services 🏦",
+                "action": {
+                  "type": "quickReply",
+                  "message": "Banking services 🏦"
+                }
+              },
+              {
+                "name": "Tax",
+                "action": {
+                  "type": "quickReply",
+                  "message": "Tax"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "message": "",
+          "platform": "kommunicate",
+          "metadata": {
+            "contentType": "300",
+            "templateId": "11",
+            "payload": [
+              {
+                "name": "Instant Loans ⏱️",
+                "action": {
+                  "type": "quickReply",
+                  "message": "Instant Loans ⏱️"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "message": "",
+          "platform": "kommunicate",
+          "metadata": {
+            "contentType": "300",
+            "templateId": "11",
+            "payload": [
+              {
+                "name": "Cards 💳",
+                "action": {
+                  "type": "quickReply",
+                  "message": "Cards 💳"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "message": "",
+          "platform": "kommunicate",
+          "metadata": {
+            "contentType": "300",
+            "templateId": "11",
+            "payload": [
+              {
+                "name": "Pay bill 💸 ",
+                "action": {
+                  "type": "quickReply",
+                  "message": "Pay bill 💸 "
+                }
+              }
+            ]
+          }
+        },
+        {
+          "message": "",
+          "platform": "kommunicate",
+          "metadata": {
+            "contentType": "300",
+            "templateId": "11",
+            "payload": [
+              {
+                "name": "Credit Card",
+                "action": {
+                  "type": "quickReply",
+                  "message": "Credit Card"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "urlPatternList": [],
+      "category": "welcome_event",
+      "languageCode": "en",
+      "name": "Default Welcome Intent",
+      "trainingPhrases": []
+    },
+    {
+      "content": [
+        {
+          "message": "Hey it starts at $30"
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Pricing",
+      "trainingPhrases": [
+        "pricing",
+        "cost of the product",
+        "billing",
+        "invoice"
+      ]
+    }
+  ],
+  "languageCodes": ["en"]
 }

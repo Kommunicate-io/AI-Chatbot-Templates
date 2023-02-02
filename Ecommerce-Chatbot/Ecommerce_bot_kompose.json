@@ -1,435 +1,422 @@
 {
-	"intents": [
-		{
-			"content": [
-				{
-					"platform": "kommunicate",
-					"message": "✔️Choose your favourite collection 👇",
-					"metadata": {
-						"contentType": "300",
-						"templateId": "3",
-						"payload": [
-							{
-								"url": "https://www.amazon.com/s?k=men+dresses&ref=nb_sb_noss_2",
-								"name": "🤵Men Dresses",
-								"type": "link"
-							},
-							{
-								"name": "👸Women Dresses",
-								"url": "https://www.amazon.com/s?k=women+clothing&crid=85W5AF67F3FZ&sprefix=women+clo%2Caps%2C519&ref=nb_sb_ss_i_1_9",
-								"type": "link"
-							},
-							{
-								"url": "https://www.amazon.com/s?k=watches&ref=nb_sb_noss_2",
-								"name": "⌚Watches",
-								"type": "link"
-							},
-							{
-								"url": "https://www.amazon.com/s?k=accessories+for+women&crid=3T0OO2UGMCSOS&sprefix=access%2Caps%2C437&ref=nb_sb_ss_i_6_6",
-								"name": "👜Accessories",
-								"type": "link"
-							},
-							{
-								"url": "https://www.amazon.com/s?k=mobile&ref=nb_sb_noss_2",
-								"name": "📲Mobiles",
-								"type": "link"
-							},
-							{
-								"openLinkInNewTab": true,
-								"url": "https://www.amazon.com/s?k=personal+care&crid=XOU0P7MKU1O0&sprefix=personal+care%2Caps%2C646&ref=nb_sb_ss_i_1_13",
-								"name": "💄Personal Care",
-								"type": "link"
-							}
-						]
-					}
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "All Collections",
-			"trainingPhrases": [
-				"All Collections"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "Please provide us with the order number would you like to check the status."
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Order Status",
-			"trainingPhrases": [
-				"Order Status"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "Please provide us with the order number you'd like to cancel."
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Cancel Order",
-			"trainingPhrases": [
-				"Cancel Order"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "Cool. Let me see if I can help you out. If not I will fetch someone from the support team. What is your question about?"
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "General question",
-			"trainingPhrases": [
-				"General question"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "You can set up a return or exchange online. During the setup, we’ll let you know which items are eligible to be returned and if there’s any restocking fee.  \n\nIf you’d like to exchange the item, please place a new order of similar cost within 15 days and the restocking fee will be credited back to you"
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Exchange Item",
-			"trainingPhrases": [
-				"Exchange Item"
-			]
-		},
-		{
-			"content": [
-				{
-					"platform": "kommunicate",
-					"metadata": {
-						"contentType": "300",
-						"templateId": "10",
-						"payload": [
-							{
-								"title": "MEN'S FASHION",
-								"description": "Fashion is what you’re offered four times a year by designers. And style is what you choose.",
-								"buttons": [
-									{
-										"action": {
-											"type": "link",
-											"payload": {
-												"url": "https://www.amazon.com/s?k=men+fashion&crid=2AWHC23U7KS5A&sprefix=men+fas%2Caps%2C466&ref=nb_sb_ss_i_1_7"
-											}
-										},
-										"name": "Shop Now"
-									}
-								],
-								"titleExt": "4.5/5",
-								"header": {
-									"imgSrc": "https://images.unsplash.com/photo-1493146146946-e907f69cdf23?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=890&q=80"
-								}
-							},
-							{
-								"buttons": [
-									{
-										"action": {
-											"payload": {
-												"url": "https://www.amazon.com/s?k=women+fashion+tops&crid=223ZVO20GFDP6&sprefix=women+fashio%2Caps%2C549&ref=nb_sb_ss_i_1_12"
-											},
-											"type": "link"
-										},
-										"name": "Shop Now"
-									}
-								],
-								"title": "WOMEN'S FASHION",
-								"header": {
-									"imgSrc": "https://images.unsplash.com/photo-1589960062943-bfb9f51756fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
-								},
-								"description": "Style is something each of us already has, all we need to do is find it.",
-								"titleExt": "4.8/5"
-							},
-							{
-								"description": "Looking for watches? We stock a huge range of designer watches for gents, women, kids from famous brands",
-								"titleExt": "4.8/5",
-								"title": "WATCHES",
-								"buttons": [
-									{
-										"action": {
-											"payload": {
-												"url": "https://www.amazon.com/s?k=watch&crid=FSYRY8G29WSC&sprefix=watch%2Caps%2C1077&ref=nb_sb_ss_i_5_5"
-											},
-											"type": "link"
-										},
-										"name": "Shop Now"
-									}
-								],
-								"header": {
-									"imgSrc": "https://images.unsplash.com/photo-1558505780-e7a9d70b4bab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=873&q=80"
-								}
-							}
-						]
-					},
-					"message": "Shop 🛍️ our unique collections⭐"
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Fashion",
-			"trainingPhrases": [
-				"Show me the collections",
-				"👗Fashion"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "You can check the shipping charges and time frames on the Delivery page of our website.\n\nhttps://www.examplestore.com/delivery"
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Delivery Options",
-			"trainingPhrases": [
-				"delivery charges",
-				"delivery options",
-				"shipping rates",
-				"delivery time frames",
-				"shipping"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "I have several gift card choices: $50, $100 and $200. Which one do you prefer?"
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "gift_card",
-			"trainingPhrases": [
-				"I'm looking for a gift",
-				"gift card",
-				"can you give me gift cards",
-				"do you have gift cards"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "I've put it into your cart."
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "gift_card - $200",
-			"trainingPhrases": [
-				"$200",
-				"200",
-				"how about the one for 200 bucks"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "I've put it into your cart."
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "gift_card - $100",
-			"trainingPhrases": [
-				"$100",
-				"100",
-				"hundred"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "I've put it into your cart."
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "gift_card - $50",
-			"trainingPhrases": [
-				"$50",
-				"50",
-				"fifty"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "Have a look at this section's products having offers. \n\nhttps://www.examplestore.com/offers\n\nWe always have some interesting offers there."
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "special_offers",
-			"trainingPhrases": [
-				"today's offer",
-				"do you have any discounts",
-				"any special offers today",
-				"current offers",
-				"do you have special offers"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "Thanks for checking our Store 🏪 Choose an option 👇 to continue!"
-				},
-				{
-					"message": "",
-					"platform": "kommunicate",
-					"metadata": {
-						"contentType": "300",
-						"templateId": "11",
-						"payload": [
-							{
-								"name": "❓General question",
-								"action": {
-									"type": "quickReply",
-									"message": "👗Fashion"
-								}
-							},
-							{
-								"name": "📃Order Status",
-								"action": {
-									"type": "quickReply",
-									"message": "👗Fashion"
-								}
-							},
-							{
-								"name": "🗙Cancel Order",
-								"action": {
-									"type": "quickReply",
-									"message": "👗Fashion"
-								}
-							},
-							{
-								"name": "🔁Exchange Item",
-								"action": {
-									"type": "quickReply",
-									"message": "👗Fashion"
-								}
-							},
-							{
-								"name": "🛍️All Collections",
-								"action": {
-									"type": "quickReply",
-									"message": "👗Fashion"
-								}
-							},
-							{
-								"name": "👗Fashion",
-								"action": {
-									"type": "quickReply",
-									"message": "👗Fashion"
-								}
-							},
-							{
-								"name": "👕T-Shirts",
-								"action": {
-									"type": "quickReply",
-									"message": "👕T-Shirts"
-								}
-							}
-						]
-					}
-				}
-			],
-			"urlPatternList": [],
-			"category": "welcome_event",
-			"name": "Default Welcome Intent",
-			"trainingPhrases": [
-				"All Products",
-				"Fashion"
-			]
-		},
-		{
-			"content": [
-				{
-					"platform": "kommunicate",
-					"metadata": {
-						"templateId": "10",
-						"contentType": "300",
-						"payload": [
-							{
-								"description": "Comfortable, casual and loose fitting, our heavyweight t-shirt will easily become a closet staple.",
-								"titleExt": "4.5/5",
-								"header": {
-									"imgSrc": "https://images.unsplash.com/photo-1547337784-e15710a7cfe5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=708&q=80",
-									"overlayText": "$ 79"
-								},
-								"buttons": [
-									{
-										"action": {
-											"payload": {
-												"url": "https://www.amazon.com/Champion-Classic-Jersey-Script-T-Shirt/dp/B078GBJ5QZ/ref=sr_1_9?crid=13YEDJ8UIVNKV&dchild=1&keywords=tshirt+men&qid=1592074431&sprefix=tshirt+%2Caps%2C436&sr=8-9"
-											},
-											"type": "link"
-										},
-										"name": "Shop Now"
-									}
-								],
-								"title": "Classic Jersey Script T-Shirt"
-							},
-							{
-								"description": "Thistletown Park Short Sleeve Crew Shirt features our signature UPF 15 fabric that helps to blocks harmful UVA and UVB rays as well as wicking technology to help keep you dry and cool on the trail",
-								"header": {
-									"overlayText": "$49",
-									"imgSrc": "https://images.unsplash.com/photo-1585940220991-3ee52f287bde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=747&q=80"
-								},
-								"title": "Humor Graphic T-Shirt",
-								"titleExt": "4.6/5",
-								"buttons": [
-									{
-										"name": "Shop Now",
-										"action": {
-											"type": "link",
-											"payload": {
-												"url": "https://www.amazon.com/Hanes-Graphic-Tee-Humor-Thinking-Black/dp/B01EKB6ES6/ref=sr_1_22?crid=13YEDJ8UIVNKV&dchild=1&keywords=tshirt+men&qid=1592074431&sprefix=tshirt+%2Caps%2C436&sr=8-22"
-											}
-										}
-									}
-								]
-							},
-							{
-								"header": {
-									"imgSrc": "https://images.unsplash.com/photo-1533835825768-478d38555d95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-									"overlayText": "$79"
-								},
-								"description": "Soft, durable material fits your lifestyle, Exclusive to Muscle & Strength",
-								"title": "Thistletown Park Crew Shirt",
-								"buttons": [
-									{
-										"name": "Shop Now",
-										"action": {
-											"payload": {
-												"url": "https://www.amazon.com/Columbia-Thistletown-Short-Sleeve-X-Large/dp/B0076RNJ4E/ref=sr_1_43?crid=13YEDJ8UIVNKV&dchild=1&keywords=tshirt+men&qid=1592074431&sprefix=tshirt+%2Caps%2C436&sr=8-43"
-											},
-											"type": "link"
-										}
-									}
-								],
-								"titleExt": "4.8/5"
-							}
-						]
-					},
-					"message": "Hey! Here's our T-Shirt Collections👕 Shop & Enjoy🎈"
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "One Product",
-			"trainingPhrases": [
-				"T-Shirts",
-				"Hey, I'm looking for T-Shirts",
-				"👕T-Shirts"
-			]
-		}
-	]
+  "intents": [
+    {
+      "content": [
+        {
+          "platform": "kommunicate",
+          "message": "✔️Choose your favourite collection 👇",
+          "metadata": {
+            "contentType": "300",
+            "templateId": "3",
+            "payload": [
+              {
+                "url": "https://www.amazon.com/s?k=men+dresses&ref=nb_sb_noss_2",
+                "name": "🤵Men Dresses",
+                "type": "link"
+              },
+              {
+                "name": "👸Women Dresses",
+                "url": "https://www.amazon.com/s?k=women+clothing&crid=85W5AF67F3FZ&sprefix=women+clo%2Caps%2C519&ref=nb_sb_ss_i_1_9",
+                "type": "link"
+              },
+              {
+                "url": "https://www.amazon.com/s?k=watches&ref=nb_sb_noss_2",
+                "name": "⌚Watches",
+                "type": "link"
+              },
+              {
+                "url": "https://www.amazon.com/s?k=accessories+for+women&crid=3T0OO2UGMCSOS&sprefix=access%2Caps%2C437&ref=nb_sb_ss_i_6_6",
+                "name": "👜Accessories",
+                "type": "link"
+              },
+              {
+                "url": "https://www.amazon.com/s?k=mobile&ref=nb_sb_noss_2",
+                "name": "📲Mobiles",
+                "type": "link"
+              },
+              {
+                "openLinkInNewTab": true,
+                "url": "https://www.amazon.com/s?k=personal+care&crid=XOU0P7MKU1O0&sprefix=personal+care%2Caps%2C646&ref=nb_sb_ss_i_1_13",
+                "name": "💄Personal Care",
+                "type": "link"
+              }
+            ]
+          }
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "All Collections",
+      "trainingPhrases": ["All Collections"]
+    },
+    {
+      "content": [
+        {
+          "message": "Please provide us with the order number would you like to check the status."
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Order Status",
+      "trainingPhrases": ["Order Status"]
+    },
+    {
+      "content": [
+        {
+          "message": "Please provide us with the order number you'd like to cancel."
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Cancel Order",
+      "trainingPhrases": ["Cancel Order"]
+    },
+    {
+      "content": [
+        {
+          "message": "Cool. Let me see if I can help you out. If not I will fetch someone from the support team. What is your question about?"
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "General question",
+      "trainingPhrases": ["General question"]
+    },
+    {
+      "content": [
+        {
+          "message": "You can set up a return or exchange online. During the setup, we’ll let you know which items are eligible to be returned and if there’s any restocking fee.  \n\nIf you’d like to exchange the item, please place a new order of similar cost within 15 days and the restocking fee will be credited back to you"
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Exchange Item",
+      "trainingPhrases": ["Exchange Item"]
+    },
+    {
+      "content": [
+        {
+          "platform": "kommunicate",
+          "metadata": {
+            "contentType": "300",
+            "templateId": "10",
+            "payload": [
+              {
+                "title": "MEN'S FASHION",
+                "description": "Fashion is what you’re offered four times a year by designers. And style is what you choose.",
+                "buttons": [
+                  {
+                    "action": {
+                      "type": "link",
+                      "payload": {
+                        "url": "https://www.amazon.com/s?k=men+fashion&crid=2AWHC23U7KS5A&sprefix=men+fas%2Caps%2C466&ref=nb_sb_ss_i_1_7"
+                      }
+                    },
+                    "name": "Shop Now"
+                  }
+                ],
+                "titleExt": "4.5/5",
+                "header": {
+                  "imgSrc": "https://images.unsplash.com/photo-1493146146946-e907f69cdf23?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=890&q=80"
+                }
+              },
+              {
+                "buttons": [
+                  {
+                    "action": {
+                      "payload": {
+                        "url": "https://www.amazon.com/s?k=women+fashion+tops&crid=223ZVO20GFDP6&sprefix=women+fashio%2Caps%2C549&ref=nb_sb_ss_i_1_12"
+                      },
+                      "type": "link"
+                    },
+                    "name": "Shop Now"
+                  }
+                ],
+                "title": "WOMEN'S FASHION",
+                "header": {
+                  "imgSrc": "https://images.unsplash.com/photo-1589960062943-bfb9f51756fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+                },
+                "description": "Style is something each of us already has, all we need to do is find it.",
+                "titleExt": "4.8/5"
+              },
+              {
+                "description": "Looking for watches? We stock a huge range of designer watches for gents, women, kids from famous brands",
+                "titleExt": "4.8/5",
+                "title": "WATCHES",
+                "buttons": [
+                  {
+                    "action": {
+                      "payload": {
+                        "url": "https://www.amazon.com/s?k=watch&crid=FSYRY8G29WSC&sprefix=watch%2Caps%2C1077&ref=nb_sb_ss_i_5_5"
+                      },
+                      "type": "link"
+                    },
+                    "name": "Shop Now"
+                  }
+                ],
+                "header": {
+                  "imgSrc": "https://images.unsplash.com/photo-1558505780-e7a9d70b4bab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=873&q=80"
+                }
+              }
+            ]
+          },
+          "message": "Shop 🛍️ our unique collections⭐"
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Fashion",
+      "trainingPhrases": ["Show me the collections", "👗Fashion"]
+    },
+    {
+      "content": [
+        {
+          "message": "You can check the shipping charges and time frames on the Delivery page of our website.\n\nhttps://www.examplestore.com/delivery"
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Delivery Options",
+      "trainingPhrases": [
+        "delivery charges",
+        "delivery options",
+        "shipping rates",
+        "delivery time frames",
+        "shipping"
+      ]
+    },
+    {
+      "content": [
+        {
+          "message": "I have several gift card choices: $50, $100 and $200. Which one do you prefer?"
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "gift_card",
+      "trainingPhrases": [
+        "I'm looking for a gift",
+        "gift card",
+        "can you give me gift cards",
+        "do you have gift cards"
+      ]
+    },
+    {
+      "content": [
+        {
+          "message": "I've put it into your cart."
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "gift_card - $200",
+      "trainingPhrases": ["$200", "200", "how about the one for 200 bucks"]
+    },
+    {
+      "content": [
+        {
+          "message": "I've put it into your cart."
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "gift_card - $100",
+      "trainingPhrases": ["$100", "100", "hundred"]
+    },
+    {
+      "content": [
+        {
+          "message": "I've put it into your cart."
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "gift_card - $50",
+      "trainingPhrases": ["$50", "50", "fifty"]
+    },
+    {
+      "content": [
+        {
+          "message": "Have a look at this section's products having offers. \n\nhttps://www.examplestore.com/offers\n\nWe always have some interesting offers there."
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "special_offers",
+      "trainingPhrases": [
+        "today's offer",
+        "do you have any discounts",
+        "any special offers today",
+        "current offers",
+        "do you have special offers"
+      ]
+    },
+    {
+      "content": [
+        {
+          "message": "Thanks for checking our Store 🏪 Choose an option 👇 to continue!"
+        },
+        {
+          "message": "",
+          "platform": "kommunicate",
+          "metadata": {
+            "contentType": "300",
+            "templateId": "11",
+            "payload": [
+              {
+                "name": "❓General question",
+                "action": {
+                  "type": "quickReply",
+                  "message": "👗Fashion"
+                }
+              },
+              {
+                "name": "📃Order Status",
+                "action": {
+                  "type": "quickReply",
+                  "message": "👗Fashion"
+                }
+              },
+              {
+                "name": "🗙Cancel Order",
+                "action": {
+                  "type": "quickReply",
+                  "message": "👗Fashion"
+                }
+              },
+              {
+                "name": "🔁Exchange Item",
+                "action": {
+                  "type": "quickReply",
+                  "message": "👗Fashion"
+                }
+              },
+              {
+                "name": "🛍️All Collections",
+                "action": {
+                  "type": "quickReply",
+                  "message": "👗Fashion"
+                }
+              },
+              {
+                "name": "👗Fashion",
+                "action": {
+                  "type": "quickReply",
+                  "message": "👗Fashion"
+                }
+              },
+              {
+                "name": "👕T-Shirts",
+                "action": {
+                  "type": "quickReply",
+                  "message": "👕T-Shirts"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "urlPatternList": [],
+      "category": "welcome_event",
+      "languageCode": "en",
+      "name": "Default Welcome Intent",
+      "trainingPhrases": ["All Products", "Fashion"]
+    },
+    {
+      "content": [
+        {
+          "platform": "kommunicate",
+          "metadata": {
+            "templateId": "10",
+            "contentType": "300",
+            "payload": [
+              {
+                "description": "Comfortable, casual and loose fitting, our heavyweight t-shirt will easily become a closet staple.",
+                "titleExt": "4.5/5",
+                "header": {
+                  "imgSrc": "https://images.unsplash.com/photo-1547337784-e15710a7cfe5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=708&q=80",
+                  "overlayText": "$ 79"
+                },
+                "buttons": [
+                  {
+                    "action": {
+                      "payload": {
+                        "url": "https://www.amazon.com/Champion-Classic-Jersey-Script-T-Shirt/dp/B078GBJ5QZ/ref=sr_1_9?crid=13YEDJ8UIVNKV&dchild=1&keywords=tshirt+men&qid=1592074431&sprefix=tshirt+%2Caps%2C436&sr=8-9"
+                      },
+                      "type": "link"
+                    },
+                    "name": "Shop Now"
+                  }
+                ],
+                "title": "Classic Jersey Script T-Shirt"
+              },
+              {
+                "description": "Thistletown Park Short Sleeve Crew Shirt features our signature UPF 15 fabric that helps to blocks harmful UVA and UVB rays as well as wicking technology to help keep you dry and cool on the trail",
+                "header": {
+                  "overlayText": "$49",
+                  "imgSrc": "https://images.unsplash.com/photo-1585940220991-3ee52f287bde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=747&q=80"
+                },
+                "title": "Humor Graphic T-Shirt",
+                "titleExt": "4.6/5",
+                "buttons": [
+                  {
+                    "name": "Shop Now",
+                    "action": {
+                      "type": "link",
+                      "payload": {
+                        "url": "https://www.amazon.com/Hanes-Graphic-Tee-Humor-Thinking-Black/dp/B01EKB6ES6/ref=sr_1_22?crid=13YEDJ8UIVNKV&dchild=1&keywords=tshirt+men&qid=1592074431&sprefix=tshirt+%2Caps%2C436&sr=8-22"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "header": {
+                  "imgSrc": "https://images.unsplash.com/photo-1533835825768-478d38555d95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+                  "overlayText": "$79"
+                },
+                "description": "Soft, durable material fits your lifestyle, Exclusive to Muscle & Strength",
+                "title": "Thistletown Park Crew Shirt",
+                "buttons": [
+                  {
+                    "name": "Shop Now",
+                    "action": {
+                      "payload": {
+                        "url": "https://www.amazon.com/Columbia-Thistletown-Short-Sleeve-X-Large/dp/B0076RNJ4E/ref=sr_1_43?crid=13YEDJ8UIVNKV&dchild=1&keywords=tshirt+men&qid=1592074431&sprefix=tshirt+%2Caps%2C436&sr=8-43"
+                      },
+                      "type": "link"
+                    }
+                  }
+                ],
+                "titleExt": "4.8/5"
+              }
+            ]
+          },
+          "message": "Hey! Here's our T-Shirt Collections👕 Shop & Enjoy🎈"
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "One Product",
+      "trainingPhrases": [
+        "T-Shirts",
+        "Hey, I'm looking for T-Shirts",
+        "👕T-Shirts"
+      ]
+    }
+  ],
+  "languageCodes": ["en"]
 }

@@ -1,567 +1,553 @@
 {
-	"intents": [
-		{
-			"content": [
-				{
-					"message": "Hey👋 Thank you for showing interest in our insurance 😍"
-				},
-				{
-					"platform": "kommunicate",
-					"metadata": {
-						"templateId": "6",
-						"contentType": "300",
-						"payload": [
-							{
-								"message": "Insurance policies we provide",
-								"title": "💰Check our Insurance policies"
-							}
-						]
-					}
-				}
-			],
-			"urlPatternList": [],
-			"category": "welcome_event",
-			"name": "Default Welcome Intent",
-			"trainingPhrases": []
-		},
-		{
-			"content": [
-				{
-					"message": "",
-					"platform": "kommunicate",
-					"metadata": {
-						"contentType": "300",
-						"templateId": "6",
-						"payload": [
-							{
-								"title": "🏥Life Insurance",
-								"message": "🏥Life Insurance"
-							},
-							{
-								"title": "🏠Home Insurance",
-								"message": "🏠Home Insurance"
-							},
-							{
-								"title": "🚗Vehicle Insurance",
-								"message": "🚗Vehicle Insurance"
-							}
-						]
-					}
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Insurance - YES",
-			"trainingPhrases": [
-				"Insurance policies we provide"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "🏠Home insurance covers the structure of house and the contents which include prized possessions against damage from natural calamities like floods, earthquake, storm and man made events like riots, arson etc."
-				},
-				{
-					"message": "⭐Benefits and Features of 🏠Home Insurance\n✔️Complete coverage for any damage to your home or it's contents from natural calamities and man made events\n\n✔️Benefits like round the clock customer service, immediate access to the insurance experts and quick customer service."
-				},
-				{
-					"platform": "kommunicate",
-					"metadata": {
-						"templateId": "6",
-						"contentType": "300",
-						"payload": [
-							{
-								"message": "Home Insurance - Plan Details",
-								"title": "💡Plan Details"
-							}
-						]
-					}
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Home Insurance",
-			"trainingPhrases": [
-				"🏠Home Insurance"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "Choose any of the Home insurance plan 👇🏼"
-				},
-				{
-					"metadata": {
-						"payload": [
-							{
-								"title": "For Tenants",
-								"message": "For Tenants"
-							},
-							{
-								"title": "For Owners",
-								"message": "For Owners"
-							},
-							{
-								"title": "Housing Society",
-								"message": "Housing Society"
-							}
-						],
-						"contentType": "300",
-						"templateId": "6"
-					},
-					"platform": "kommunicate"
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Home Insurance - Plan Details",
-			"trainingPhrases": [
-				"Home Insurance - Plan Details"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "Even though you are at the rented place. The sweet memories, important occasions are still to be cherished 🌼"
-				},
-				{
-					"platform": "kommunicate",
-					"metadata": {
-						"payload": [
-							{
-								"title": "Yes",
-								"message": "Please provide us with some details"
-							},
-							{
-								"message": "Not looking for this plan",
-								"title": "No"
-							}
-						],
-						"templateId": "6",
-						"contentType": "300"
-					},
-					"message": "Interested in this plan?"
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Home Insurance - Tenants",
-			"trainingPhrases": [
-				"For Tenants"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "Cool 🙂 You can explore the other plans 👍"
-				},
-				{
-					"platform": "kommunicate",
-					"metadata": {
-						"payload": [
-							{
-								"title": "💡Main Menu",
-								"message": "Main Menu"
-							}
-						],
-						"contentType": "300",
-						"templateId": "6"
-					}
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Home Insurance - Tenants - No",
-			"trainingPhrases": [
-				"Not looking for this plan"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "✔️Who needs it: Those with dependents\n\n✔️What it is: \n- In the event of death, a life insurance policy pays a beneficiary an agreed-upon amount of money to cover the expenses left by the deceased\n\n- A beneficiary is a person or entity named in a policy who receives benefits, such as a spouse"
-				},
-				{
-					"platform": "kommunicate",
-					"metadata": {
-						"payload": [
-							{
-								"message": "Life Insurance - Plan details",
-								"title": "💡Plan details"
-							}
-						],
-						"templateId": "6",
-						"contentType": "300"
-					}
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Life Insurance",
-			"trainingPhrases": [
-				"🏥Life Insurance"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "✔️Premium: Rs. 1000 paid annually\n✔️Premium Payment Term: 6 Years (Regular)\n✔️Sum Assured: Rs 2,50,000\n✔️Plan Option: Daily hospital cash, surgical & critical illness"
-				},
-				{
-					"platform": "kommunicate",
-					"metadata": {
-						"templateId": "6",
-						"contentType": "300",
-						"payload": [
-							{
-								"message": "Surgical Benefit",
-								"title": "Surgical Benefit"
-							},
-							{
-								"title": "Critical illness benefit",
-								"message": "Critical illness benefit"
-							},
-							{
-								"title": "Daily Hospital Benefit",
-								"message": "Daily Hospital Benefit"
-							}
-						]
-					}
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Life Insurance - Plan details",
-			"trainingPhrases": [
-				"Life Insurance - Plan details"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "✔️Critical Illness Insurance provides coverage against specific life threatening diseases\n\n✔️Treating such critical illnesses may require multiple visits to the hospital over a long period of time\n\n✔️In addition to the hospitalization cost, there will be other costs like doctor visits, medical expenses, etc"
-				},
-				{
-					"platform": "kommunicate",
-					"metadata": {
-						"templateId": "6",
-						"contentType": "300",
-						"payload": [
-							{
-								"message": "Main Menu",
-								"title": "💡Main Menu"
-							}
-						]
-					}
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Life Insurance - Critical Illness benefit",
-			"trainingPhrases": [
-				"Critical illness benefit"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "✔️Daily hospital benefit provides a sum amount daily in case of hospitalization and this amount can be used per the insured’s need\n\n✔️The money can be used for meeting additional expenses that are not covered by health insurance or for even compensating the loss of income during the period of hospitalization"
-				},
-				{
-					"platform": "kommunicate",
-					"metadata": {
-						"templateId": "6",
-						"payload": [
-							{
-								"message": "Main Menu",
-								"title": "💡Main Menu"
-							}
-						],
-						"contentType": "300"
-					}
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Life Insurance - Daily Hospital Benefit",
-			"trainingPhrases": [
-				"Daily Hospital Benefit"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "✔️Illness or accidental injuries resulting in the hospitalization can bring in some serious financial problems for any family\n \n✔️To provide you with financial assistance in such circumstances we provide Surgical Protection Insurance"
-				},
-				{
-					"platform": "kommunicate",
-					"metadata": {
-						"payload": [
-							{
-								"title": "💡Main Menu",
-								"message": "Main Menu"
-							}
-						],
-						"templateId": "6",
-						"contentType": "300"
-					}
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Life Insurance - Surgical Benefit",
-			"trainingPhrases": [
-				"Surgical Benefit"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "Motor insurance policy covers the policyholder in case of financial losses, resulting from an accident or other damages sustained by the insured vehicle. \n\nWhat's included?\n✔️ Accidents, Personal Accident Cover\n✔️ Fire & Explosion\n✔️ Theft\n✔️ Calamities\n\nWhat’s not included?\n✔️ Depreciation\n✔️ Electrical & Mechanical Breakdown\n✔️ Illegal Driving"
-				},
-				{
-					"metadata": {
-						"payload": [
-							{
-								"title": "💡Plan Details",
-								"message": "Vehicle Insurance - Plan Details"
-							}
-						],
-						"templateId": "6",
-						"contentType": "300"
-					},
-					"platform": "kommunicate"
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Vehicle Insurance",
-			"trainingPhrases": [
-				"🚗Vehicle Insurance"
-			]
-		},
-		{
-			"content": [
-				{
-					"platform": "kommunicate",
-					"metadata": {
-						"contentType": "300",
-						"payload": [
-							{
-								"title": "🚗Car Insurance",
-								"header": {
-									"imgSrc": "https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
-								},
-								"description": "This insurance is for any private car owned by an individual. It also covers any damages and injuries caused to the third party",
-								"buttons": [
-									{
-										"name": "Get Quote",
-										"action": {
-											"type": "link",
-											"payload": {
-												"url": "https://www.godigit.com/motor-insurance/car-insurance"
-											}
-										}
-									}
-								]
-							},
-							{
-								"description": "Covers two-wheelers like a scooter or a bike. It also offers a mandatory personal accident cover for the owner rider and can be taken for passengers too",
-								"buttons": [
-									{
-										"action": {
-											"type": "link",
-											"payload": {
-												"url": "https://www.godigit.com/motor-insurance/two-wheeler-insurance"
-											}
-										},
-										"name": "Get Quote"
-									}
-								],
-								"header": {
-									"imgSrc": "https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
-								},
-								"title": "🏍️2-Wheeler Insurance"
-							},
-							{
-								"title": "🚚Commercial Vehicle Insurance",
-								"description": "Covers all those vehicles which are not used for personal purpose. Trucks, buses, heavy commercial vehicles, light commercial vehicles, multi-utility vehicles, agricultural vehicles, taxi/cab, ambulances, auto-rickshaw etc.",
-								"buttons": [
-									{
-										"name": "Get Quote",
-										"action": {
-											"payload": {
-												"url": "https://www.godigit.com/motor-insurance/commercial-vehicle-insurance"
-											},
-											"type": "link"
-										}
-									}
-								],
-								"header": {
-									"imgSrc": "https://images.unsplash.com/photo-1561157437-415893bd7149?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=565&q=80"
-								}
-							}
-						],
-						"templateId": "10"
-					},
-					"message": "Motor Vehicle Insurance policies"
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Vehicle Insurance - Plan Details",
-			"trainingPhrases": [
-				"Vehicle Insurance - Plan Details"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "💰Insurance policies"
-				},
-				{
-					"message": "",
-					"platform": "kommunicate",
-					"metadata": {
-						"contentType": "300",
-						"templateId": "6",
-						"payload": [
-							{
-								"title": "🏥Life Insurance",
-								"message": "🏥Life Insurance"
-							},
-							{
-								"title": "🏠Home Insurance",
-								"message": "🏠Home Insurance"
-							},
-							{
-								"title": "🚗Vehicle Insurance",
-								"message": "🚗Vehicle Insurance"
-							}
-						]
-					}
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Main Menu",
-			"trainingPhrases": [
-				"Main Menu"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "Your housing society is home to hundreds of family members.\n \n🏠 We provide complete protection against multiple factors to keep your society safe and secure.\n\n✔️ Stay protected for a year\n✔️ Covers common amenities\n✔️ Bigger properties higher coverage\n✔️ Big discounts\n\nThis is a custom plan. For registration and more details, please go here 👇🏻"
-				},
-				{
-					"metadata": {
-						"templateId": "3",
-						"payload": [
-							{
-								"url": "https://www.kommunicate.io/product/kompose-bot-builder/",
-								"type": "link",
-								"name": "🏠Housing Society - Custom plan"
-							}
-						],
-						"contentType": "300"
-					},
-					"platform": "kommunicate"
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Home Insurance - Housing Society",
-			"trainingPhrases": [
-				"Housing Society"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "Your 🏠home is your soul. Protect it!\n\n✔️Covers losses and damages to an individual's house and to assets in the house"
-				},
-				{
-					"metadata": {
-						"templateId": "6",
-						"contentType": "300",
-						"payload": [
-							{
-								"title": "Yes",
-								"message": "Please provide us with some details"
-							},
-							{
-								"message": "Not looking for this plan",
-								"title": "No"
-							}
-						]
-					},
-					"platform": "kommunicate",
-					"message": "Interested in this plan?"
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Home Insurance - Owners",
-			"trainingPhrases": [
-				"For Owners"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "Cool 🙂 You can explore the other plans 👍"
-				},
-				{
-					"metadata": {
-						"payload": [
-							{
-								"message": "Main Menu",
-								"title": "💡Main Menu"
-							}
-						],
-						"contentType": "300",
-						"templateId": "6"
-					},
-					"platform": "kommunicate"
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Home Insurance - Owners - No",
-			"trainingPhrases": [
-				"No"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "Thank you for choosing the plan & providing the details.\n\nOne of our representatives will reach out to you at $phoneNumber as soon as possible and help you with further steps in the policy👍"
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Email & Phone Number",
-			"fields": {
-				"email": "@KOMPOSE_DEFAULT_ENTITY.EMAIL",
-				"phoneNumber": "@KOMPOSE_DEFAULT_ENTITY.PHONE_NUMBER"
-			},
-			"trainingPhrases": [
-				"my email is kevin@gmail.com and number is 7866632145"
-			]
-		},
-		{
-			"content": [
-				{
-					"message": "Please provide your 📧Email & ☎️Phone Number\n\nFor example] alex@gmail.com & 7896783211"
-				}
-			],
-			"urlPatternList": [],
-			"category": "intent",
-			"name": "Home Insurance - Tenants - Yes",
-			"trainingPhrases": [
-				"Please provide us with some details"
-			]
-		}
-	]
+  "intents": [
+    {
+      "content": [
+        {
+          "message": "Hey👋 Thank you for showing interest in our insurance 😍"
+        },
+        {
+          "platform": "kommunicate",
+          "metadata": {
+            "templateId": "6",
+            "contentType": "300",
+            "payload": [
+              {
+                "message": "Insurance policies we provide",
+                "title": "💰Check our Insurance policies"
+              }
+            ]
+          }
+        }
+      ],
+      "urlPatternList": [],
+      "category": "welcome_event",
+      "languageCode": "en",
+      "name": "Default Welcome Intent",
+      "trainingPhrases": []
+    },
+    {
+      "content": [
+        {
+          "message": "",
+          "platform": "kommunicate",
+          "metadata": {
+            "contentType": "300",
+            "templateId": "6",
+            "payload": [
+              {
+                "title": "🏥Life Insurance",
+                "message": "🏥Life Insurance"
+              },
+              {
+                "title": "🏠Home Insurance",
+                "message": "🏠Home Insurance"
+              },
+              {
+                "title": "🚗Vehicle Insurance",
+                "message": "🚗Vehicle Insurance"
+              }
+            ]
+          }
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Insurance - YES",
+      "trainingPhrases": ["Insurance policies we provide"]
+    },
+    {
+      "content": [
+        {
+          "message": "🏠Home insurance covers the structure of house and the contents which include prized possessions against damage from natural calamities like floods, earthquake, storm and man made events like riots, arson etc."
+        },
+        {
+          "message": "⭐Benefits and Features of 🏠Home Insurance\n✔️Complete coverage for any damage to your home or it's contents from natural calamities and man made events\n\n✔️Benefits like round the clock customer service, immediate access to the insurance experts and quick customer service."
+        },
+        {
+          "platform": "kommunicate",
+          "metadata": {
+            "templateId": "6",
+            "contentType": "300",
+            "payload": [
+              {
+                "message": "Home Insurance - Plan Details",
+                "title": "💡Plan Details"
+              }
+            ]
+          }
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Home Insurance",
+      "trainingPhrases": ["🏠Home Insurance"]
+    },
+    {
+      "content": [
+        {
+          "message": "Choose any of the Home insurance plan 👇🏼"
+        },
+        {
+          "metadata": {
+            "payload": [
+              {
+                "title": "For Tenants",
+                "message": "For Tenants"
+              },
+              {
+                "title": "For Owners",
+                "message": "For Owners"
+              },
+              {
+                "title": "Housing Society",
+                "message": "Housing Society"
+              }
+            ],
+            "contentType": "300",
+            "templateId": "6"
+          },
+          "platform": "kommunicate"
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Home Insurance - Plan Details",
+      "trainingPhrases": ["Home Insurance - Plan Details"]
+    },
+    {
+      "content": [
+        {
+          "message": "Even though you are at the rented place. The sweet memories, important occasions are still to be cherished 🌼"
+        },
+        {
+          "platform": "kommunicate",
+          "metadata": {
+            "payload": [
+              {
+                "title": "Yes",
+                "message": "Please provide us with some details"
+              },
+              {
+                "message": "Not looking for this plan",
+                "title": "No"
+              }
+            ],
+            "templateId": "6",
+            "contentType": "300"
+          },
+          "message": "Interested in this plan?"
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Home Insurance - Tenants",
+      "trainingPhrases": ["For Tenants"]
+    },
+    {
+      "content": [
+        {
+          "message": "Cool 🙂 You can explore the other plans 👍"
+        },
+        {
+          "platform": "kommunicate",
+          "metadata": {
+            "payload": [
+              {
+                "title": "💡Main Menu",
+                "message": "Main Menu"
+              }
+            ],
+            "contentType": "300",
+            "templateId": "6"
+          }
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Home Insurance - Tenants - No",
+      "trainingPhrases": ["Not looking for this plan"]
+    },
+    {
+      "content": [
+        {
+          "message": "✔️Who needs it: Those with dependents\n\n✔️What it is: \n- In the event of death, a life insurance policy pays a beneficiary an agreed-upon amount of money to cover the expenses left by the deceased\n\n- A beneficiary is a person or entity named in a policy who receives benefits, such as a spouse"
+        },
+        {
+          "platform": "kommunicate",
+          "metadata": {
+            "payload": [
+              {
+                "message": "Life Insurance - Plan details",
+                "title": "💡Plan details"
+              }
+            ],
+            "templateId": "6",
+            "contentType": "300"
+          }
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Life Insurance",
+      "trainingPhrases": ["🏥Life Insurance"]
+    },
+    {
+      "content": [
+        {
+          "message": "✔️Premium: Rs. 1000 paid annually\n✔️Premium Payment Term: 6 Years (Regular)\n✔️Sum Assured: Rs 2,50,000\n✔️Plan Option: Daily hospital cash, surgical & critical illness"
+        },
+        {
+          "platform": "kommunicate",
+          "metadata": {
+            "templateId": "6",
+            "contentType": "300",
+            "payload": [
+              {
+                "message": "Surgical Benefit",
+                "title": "Surgical Benefit"
+              },
+              {
+                "title": "Critical illness benefit",
+                "message": "Critical illness benefit"
+              },
+              {
+                "title": "Daily Hospital Benefit",
+                "message": "Daily Hospital Benefit"
+              }
+            ]
+          }
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Life Insurance - Plan details",
+      "trainingPhrases": ["Life Insurance - Plan details"]
+    },
+    {
+      "content": [
+        {
+          "message": "✔️Critical Illness Insurance provides coverage against specific life threatening diseases\n\n✔️Treating such critical illnesses may require multiple visits to the hospital over a long period of time\n\n✔️In addition to the hospitalization cost, there will be other costs like doctor visits, medical expenses, etc"
+        },
+        {
+          "platform": "kommunicate",
+          "metadata": {
+            "templateId": "6",
+            "contentType": "300",
+            "payload": [
+              {
+                "message": "Main Menu",
+                "title": "💡Main Menu"
+              }
+            ]
+          }
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Life Insurance - Critical Illness benefit",
+      "trainingPhrases": ["Critical illness benefit"]
+    },
+    {
+      "content": [
+        {
+          "message": "✔️Daily hospital benefit provides a sum amount daily in case of hospitalization and this amount can be used per the insured’s need\n\n✔️The money can be used for meeting additional expenses that are not covered by health insurance or for even compensating the loss of income during the period of hospitalization"
+        },
+        {
+          "platform": "kommunicate",
+          "metadata": {
+            "templateId": "6",
+            "payload": [
+              {
+                "message": "Main Menu",
+                "title": "💡Main Menu"
+              }
+            ],
+            "contentType": "300"
+          }
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Life Insurance - Daily Hospital Benefit",
+      "trainingPhrases": ["Daily Hospital Benefit"]
+    },
+    {
+      "content": [
+        {
+          "message": "✔️Illness or accidental injuries resulting in the hospitalization can bring in some serious financial problems for any family\n \n✔️To provide you with financial assistance in such circumstances we provide Surgical Protection Insurance"
+        },
+        {
+          "platform": "kommunicate",
+          "metadata": {
+            "payload": [
+              {
+                "title": "💡Main Menu",
+                "message": "Main Menu"
+              }
+            ],
+            "templateId": "6",
+            "contentType": "300"
+          }
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Life Insurance - Surgical Benefit",
+      "trainingPhrases": ["Surgical Benefit"]
+    },
+    {
+      "content": [
+        {
+          "message": "Motor insurance policy covers the policyholder in case of financial losses, resulting from an accident or other damages sustained by the insured vehicle. \n\nWhat's included?\n✔️ Accidents, Personal Accident Cover\n✔️ Fire & Explosion\n✔️ Theft\n✔️ Calamities\n\nWhat’s not included?\n✔️ Depreciation\n✔️ Electrical & Mechanical Breakdown\n✔️ Illegal Driving"
+        },
+        {
+          "metadata": {
+            "payload": [
+              {
+                "title": "💡Plan Details",
+                "message": "Vehicle Insurance - Plan Details"
+              }
+            ],
+            "templateId": "6",
+            "contentType": "300"
+          },
+          "platform": "kommunicate"
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Vehicle Insurance",
+      "trainingPhrases": ["🚗Vehicle Insurance"]
+    },
+    {
+      "content": [
+        {
+          "platform": "kommunicate",
+          "metadata": {
+            "contentType": "300",
+            "payload": [
+              {
+                "title": "🚗Car Insurance",
+                "header": {
+                  "imgSrc": "https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+                },
+                "description": "This insurance is for any private car owned by an individual. It also covers any damages and injuries caused to the third party",
+                "buttons": [
+                  {
+                    "name": "Get Quote",
+                    "action": {
+                      "type": "link",
+                      "payload": {
+                        "url": "https://www.godigit.com/motor-insurance/car-insurance"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "description": "Covers two-wheelers like a scooter or a bike. It also offers a mandatory personal accident cover for the owner rider and can be taken for passengers too",
+                "buttons": [
+                  {
+                    "action": {
+                      "type": "link",
+                      "payload": {
+                        "url": "https://www.godigit.com/motor-insurance/two-wheeler-insurance"
+                      }
+                    },
+                    "name": "Get Quote"
+                  }
+                ],
+                "header": {
+                  "imgSrc": "https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+                },
+                "title": "🏍️2-Wheeler Insurance"
+              },
+              {
+                "title": "🚚Commercial Vehicle Insurance",
+                "description": "Covers all those vehicles which are not used for personal purpose. Trucks, buses, heavy commercial vehicles, light commercial vehicles, multi-utility vehicles, agricultural vehicles, taxi/cab, ambulances, auto-rickshaw etc.",
+                "buttons": [
+                  {
+                    "name": "Get Quote",
+                    "action": {
+                      "payload": {
+                        "url": "https://www.godigit.com/motor-insurance/commercial-vehicle-insurance"
+                      },
+                      "type": "link"
+                    }
+                  }
+                ],
+                "header": {
+                  "imgSrc": "https://images.unsplash.com/photo-1561157437-415893bd7149?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=565&q=80"
+                }
+              }
+            ],
+            "templateId": "10"
+          },
+          "message": "Motor Vehicle Insurance policies"
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Vehicle Insurance - Plan Details",
+      "trainingPhrases": ["Vehicle Insurance - Plan Details"]
+    },
+    {
+      "content": [
+        {
+          "message": "💰Insurance policies"
+        },
+        {
+          "message": "",
+          "platform": "kommunicate",
+          "metadata": {
+            "contentType": "300",
+            "templateId": "6",
+            "payload": [
+              {
+                "title": "🏥Life Insurance",
+                "message": "🏥Life Insurance"
+              },
+              {
+                "title": "🏠Home Insurance",
+                "message": "🏠Home Insurance"
+              },
+              {
+                "title": "🚗Vehicle Insurance",
+                "message": "🚗Vehicle Insurance"
+              }
+            ]
+          }
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Main Menu",
+      "trainingPhrases": ["Main Menu"]
+    },
+    {
+      "content": [
+        {
+          "message": "Your housing society is home to hundreds of family members.\n \n🏠 We provide complete protection against multiple factors to keep your society safe and secure.\n\n✔️ Stay protected for a year\n✔️ Covers common amenities\n✔️ Bigger properties higher coverage\n✔️ Big discounts\n\nThis is a custom plan. For registration and more details, please go here 👇🏻"
+        },
+        {
+          "metadata": {
+            "templateId": "3",
+            "payload": [
+              {
+                "url": "https://www.kommunicate.io/product/kompose-bot-builder/",
+                "type": "link",
+                "name": "🏠Housing Society - Custom plan"
+              }
+            ],
+            "contentType": "300"
+          },
+          "platform": "kommunicate"
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Home Insurance - Housing Society",
+      "trainingPhrases": ["Housing Society"]
+    },
+    {
+      "content": [
+        {
+          "message": "Your 🏠home is your soul. Protect it!\n\n✔️Covers losses and damages to an individual's house and to assets in the house"
+        },
+        {
+          "metadata": {
+            "templateId": "6",
+            "contentType": "300",
+            "payload": [
+              {
+                "title": "Yes",
+                "message": "Please provide us with some details"
+              },
+              {
+                "message": "Not looking for this plan",
+                "title": "No"
+              }
+            ]
+          },
+          "platform": "kommunicate",
+          "message": "Interested in this plan?"
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Home Insurance - Owners",
+      "trainingPhrases": ["For Owners"]
+    },
+    {
+      "content": [
+        {
+          "message": "Cool 🙂 You can explore the other plans 👍"
+        },
+        {
+          "metadata": {
+            "payload": [
+              {
+                "message": "Main Menu",
+                "title": "💡Main Menu"
+              }
+            ],
+            "contentType": "300",
+            "templateId": "6"
+          },
+          "platform": "kommunicate"
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Home Insurance - Owners - No",
+      "trainingPhrases": ["No"]
+    },
+    {
+      "content": [
+        {
+          "message": "Thank you for choosing the plan & providing the details.\n\nOne of our representatives will reach out to you at $phoneNumber as soon as possible and help you with further steps in the policy👍"
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Email & Phone Number",
+      "fields": {
+        "email": "@KOMPOSE_DEFAULT_ENTITY.EMAIL",
+        "phoneNumber": "@KOMPOSE_DEFAULT_ENTITY.PHONE_NUMBER"
+      },
+      "trainingPhrases": [
+        "my email is kevin@gmail.com and number is 7866632145"
+      ]
+    },
+    {
+      "content": [
+        {
+          "message": "Please provide your 📧Email & ☎️Phone Number\n\nFor example] alex@gmail.com & 7896783211"
+        }
+      ],
+      "urlPatternList": [],
+      "category": "intent",
+      "languageCode": "en",
+      "name": "Home Insurance - Tenants - Yes",
+      "trainingPhrases": ["Please provide us with some details"]
+    }
+  ],
+  "languageCodes": ["en"]
 }
