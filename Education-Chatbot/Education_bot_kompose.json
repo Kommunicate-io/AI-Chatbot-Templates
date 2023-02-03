@@ -1,0 +1,758 @@
+{
+    "intents": [
+        {
+            "content": [
+                {
+                    "message": "As an alternative to downloading and installing software on your own computer, find out more about our:\n\nhttps://www.kommunicate.io/blog/\n\nwhere you can use software like spss, ArcGIS, Matlab and more... using virtualization technology 🤖"
+                },
+                {
+                    "metadata": {
+                        "templateId": "6",
+                        "contentType": "300",
+                        "payload": [
+                            {
+                                "title": "Laptop Checkout",
+                                "message": "Laptop Checkout"
+                            },
+                            {
+                                "message": "Download Software",
+                                "title": "Download Software"
+                            },
+                            {
+                                "title": "Main Menu",
+                                "message": "Main Menu"
+                            }
+                        ]
+                    },
+                    "platform": "kommunicate"
+                }
+            ],
+            "urlPatternList": [],
+            "category": "intent",
+			"languageCode": "en",
+            "name": "Virtual Labs",
+            "trainingPhrases": [
+                "Virtual Labs"
+            ]
+        },
+        {
+            "content": [
+                {
+                    "message": "Please download Microsoft Office Suite from here"
+                },
+                {
+                    "message": "",
+                    "platform": "kommunicate",
+                    "metadata": {
+                        "contentType": "300",
+                        "templateId": "11",
+                        "payload": [
+                            {
+                                "name": "Download Microsoft Office Suite",
+                                "action": {
+                                    "type": "link",
+                                    "url": "https://portal.office365.com/"
+                                }
+                            },
+                            {
+                                "name": "Main Menu",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "Main Menu"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "urlPatternList": [],
+            "category": "intent",
+			"languageCode": "en",
+            "name": "Download Software",
+            "trainingPhrases": [
+                "Download Software"
+            ]
+        },
+        {
+            "content": [
+                {
+                    "message": "We have many Knowledge Base Articles to help guide you through a variety of technology-based subjects."
+                },
+                {
+                    "message": "",
+                    "platform": "kommunicate",
+                    "metadata": {
+                        "contentType": "300",
+                        "templateId": "11",
+                        "payload": [
+                            {
+                                "name": "Technical Support",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "Main Menu"
+                                }
+                            },
+                            {
+                                "name": "Main Menu",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "Main Menu"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "urlPatternList": [],
+            "category": "intent",
+			"languageCode": "en",
+            "name": "Knowledge base articles",
+            "trainingPhrases": [
+                "knowledge base articles"
+            ]
+        },
+        {
+            "content": [
+                {
+                    "message": "We have a lending program for that type of equipment. Please visit the link below for more information.\n\nhttps://www.kommunicate.io"
+                },
+                {
+                    "message": "",
+                    "platform": "kommunicate",
+                    "metadata": {
+                        "contentType": "300",
+                        "templateId": "11",
+                        "payload": [
+                            {
+                                "name": "Main Menu",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "Main Menu"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "urlPatternList": [],
+            "category": "intent",
+			"languageCode": "en",
+            "name": "Laptop Checkout",
+            "trainingPhrases": [
+                "Laptop Checkout"
+            ]
+        },
+        {
+            "content": [
+                {
+                    "message": "Please click any of the options and proceed!"
+                },
+                {
+                    "message": "",
+                    "platform": "kommunicate",
+                    "metadata": {
+                        "contentType": "300",
+                        "templateId": "11",
+                        "payload": [
+                            {
+                                "name": "Virtual Labs",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "Virtual Labs"
+                                }
+                            },
+                            {
+                                "name": "Laptop Lending",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "Laptop Lending"
+                                }
+                            },
+                            {
+                                "name": "Knowledge base Articles",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "Knowledge base Articles"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "urlPatternList": [],
+            "category": "intent",
+			"languageCode": "en",
+            "name": "Support Bot",
+            "trainingPhrases": [
+                "I want to talk to support",
+                "support"
+            ]
+        },
+        {
+            "content": [
+                {
+                    "message": "The technical support center🖥️  is located in the Library Wedge. It assists students, staff, and faculty with technology !!\n☎️ Call us at:\n(902)544-7234\n\nor\n\n📧 Email Us At:\nsupport@kommunicate.io"
+                },
+                {
+                    "message": "",
+                    "platform": "kommunicate",
+                    "metadata": {
+                        "contentType": "300",
+                        "templateId": "11",
+                        "payload": [
+                            {
+                                "name": "Main Menu",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "Main Menu"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "urlPatternList": [],
+            "category": "intent",
+			"languageCode": "en",
+            "name": "Technical Support",
+            "trainingPhrases": [
+                "Technical Support"
+            ]
+        },
+        {
+            "content": [
+                {
+                    "message": "I am not sure how to answer this. I will connect you to a human agent to help you with your query."
+                },
+                {
+                    "platform": "kommunicate",
+                    "metadata": {
+                        "KM_ASSIGN_TO": ""
+                    }
+                }
+            ],
+            "urlPatternList": [],
+            "category": "fallback_intent",
+			"languageCode": "en",
+            "name": "Default Fallback Intent",
+            "trainingPhrases": []
+        },
+        {
+            "content": [
+                {
+                    "message": "Hi, I'm Admissions Chatbot 🎓\n\nLet's talk about admissions. Use the below 👇 options and proceed!"
+                },
+                {
+                    "message": "",
+                    "platform": "kommunicate",
+                    "metadata": {
+                        "contentType": "300",
+                        "templateId": "11",
+                        "payload": [
+                            {
+                                "name": "💰 Cost to Attend",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "💰 Cost to Attend"
+                                }
+                            },
+                            {
+                                "name": "1️⃣ Freshman & First-Time",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "1️⃣ Freshman & First-Time"
+                                }
+                            },
+                            {
+                                "name": "🔑 Sign Up for Orientation",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "🔑 Sign Up for Orientation"
+                                }
+                            },
+                            {
+                                "name": "🔁 Transfer Student",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "🔁 Transfer Student"
+                                }
+                            },
+                            {
+                                "name": "👨‍⚖️ Veteran Admission",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "👨‍⚖️ Veteran Admission"
+                                }
+                            },
+                            {
+                                "name": "⏲️ Admission Deadlines",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "⏲️ Admission Deadlines"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "urlPatternList": [],
+            "category": "welcome_event",
+			"languageCode": "en",
+            "name": "Default Welcome Intent",
+            "trainingPhrases": []
+        },
+        {
+            "content": [
+                {
+                    "message": "Please make an appointment with an Admission Veteran Liaison Counselor to get further information specific to you. \n\nGeneral information about Veteran Admissions may be found on our website:  https://www.kommunicate.io/product/kompose-bot-builder/"
+                },
+                {
+                    "message": "",
+                    "platform": "kommunicate",
+                    "metadata": {
+                        "contentType": "300",
+                        "templateId": "11",
+                        "payload": [
+                            {
+                                "name": "Cost to Attend",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "Admission Deadlines"
+                                }
+                            },
+                            {
+                                "name": "Freshman & First-Time",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "Admission Deadlines"
+                                }
+                            },
+                            {
+                                "name": "Sign Up for orientation",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "Admission Deadlines"
+                                }
+                            },
+                            {
+                                "name": "Transfer Student",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "Admission Deadlines"
+                                }
+                            },
+                            {
+                                "name": "Admission Deadlines",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "Admission Deadlines"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "urlPatternList": [],
+            "category": "intent",
+			"languageCode": "en",
+            "name": "Veteran Admission",
+            "trainingPhrases": [
+                "Veteran Admission",
+                "👨‍⚖️ Veteran Admission"
+            ]
+        },
+        {
+            "content": [
+                {
+                    "message": "In order to sign up for an orientation session please go to  University Portal\nLogin using your UniversityID found on your admissions letter Or Call Orientation and First-Year Experience at (907) 572-5122\nInformation regarding your webinar session will be sent to your University email address only. Please check that email account for your link and other details."
+                },
+                {
+                    "message": "",
+                    "platform": "kommunicate",
+                    "metadata": {
+                        "contentType": "300",
+                        "templateId": "11",
+                        "payload": [
+                            {
+                                "name": "Program Cost & Fee",
+                                "action": {
+                                    "type": "link",
+                                    "url": "https://www.kommunicate.io/home"
+                                }
+                            },
+                            {
+                                "name": "Cost to Attend",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "Cost to Attend"
+                                }
+                            },
+                            {
+                                "name": "Freshman & First-Time",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "Freshman & First-Time"
+                                }
+                            },
+                            {
+                                "name": "Transfer Student",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "Transfer Student"
+                                }
+                            },
+                            {
+                                "name": "Veteran Admission",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "Veteran Admission"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "urlPatternList": [],
+            "category": "intent",
+			"languageCode": "en",
+            "name": "Admission - Sign Up for orientation",
+            "trainingPhrases": [
+                "Sign Up for orientation",
+                "🔑 Sign Up for Orientation"
+            ]
+        },
+        {
+            "content": [
+                {
+                    "message": "✔️ Tuition and other college expenses are charged at varying rates depending on your unit enrollment, options, and degree type. \n\n✔️ Grants or scholarships will be offered on a case by case basis.\n\n✔️ I recommend estimating costs using the Net Price Calculator or start an expense spreadsheet while referencing the Tuition and Fees Site on the student financial services department website."
+                },
+                {
+                    "message": "",
+                    "platform": "kommunicate",
+                    "metadata": {
+                        "contentType": "300",
+                        "templateId": "11",
+                        "payload": [
+                            {
+                                "name": "Main Menu",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "Main Menu"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "urlPatternList": [],
+            "category": "intent",
+			"languageCode": "en",
+            "name": "Cost to Attend",
+            "trainingPhrases": [
+                "Cost to Attend",
+                "💰 Cost to Attend"
+            ]
+        },
+        {
+            "content": [
+                {
+                    "message": "To apply as a freshman, you must meet the following requirements:\n \n✔️ Be high school graduate or equivalent\n \n✔️ Complete the fifteen-unit comprehensive A-G course pattern of college preparatory study with 'C' or better.\n \n✔️ Meet the eligibility index (Local area students held to minimum eligibility index. Non-local students are held to higher index).\n\nPlease refer to our website for more information regarding First-year Student admissions."
+                },
+                {
+                    "message": "",
+                    "platform": "kommunicate",
+                    "metadata": {
+                        "contentType": "300",
+                        "templateId": "11",
+                        "payload": [
+                            {
+                                "name": "Main menu",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "Main menu"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "urlPatternList": [],
+            "category": "intent",
+			"languageCode": "en",
+            "name": "Freshman & First-Time",
+            "trainingPhrases": [
+                "Freshman & First-Time",
+                "1️⃣ Freshman & First-Time"
+            ]
+        },
+        {
+            "content": [
+                {
+                    "platform": "kommunicate",
+                    "metadata": {
+                        "contentType": "300",
+                        "payload": [
+                            {
+                                "description": "",
+                                "subtitle": "University will only accept units from regionally-accredited institutions. It has agreements with State Community Colleges that allow students to transfer specific classes to meet our university general education and lower-division major requirements. Use assist.org, if you don’t see your school there, you might need an appointment with a counselor.",
+                                "buttons": [
+                                    {
+                                        "name": "Click for more Transfer Information",
+                                        "action": {
+                                            "type": "link",
+                                            "payload": {
+                                                "url": "https://www.kommunicate.io/product/kompose-bot-builder/"
+                                            }
+                                        }
+                                    }
+                                ],
+                                "header": "",
+                                "title": "",
+                                "titleExt": "Transfer Fact #1"
+                            },
+                            {
+                                "title": "",
+                                "subtitle": "Private/ independent colleges and out-of-state institutions do not hold these same agreements, and though the university will accept units from these schools, a student must speak with the Office of Admissions to find if the classes they have taken will be considered transferable to our university",
+                                "titleExt": "Transfer Fact #1 cont.",
+                                "header": "",
+                                "description": "",
+                                "buttons": [
+                                    {
+                                        "action": {
+                                            "payload": {
+                                                "url": "https://assist.org/"
+                                            },
+                                            "type": "link"
+                                        },
+                                        "name": "Click for more Transfer Information"
+                                    }
+                                ]
+                            },
+                            {
+                                "titleExt": "Transfer Fact #2",
+                                "header": "",
+                                "description": "",
+                                "subtitle": "Complete or will complete at least 30 semester units or 45 quarter units of courses in the general education requirements with a grade of “C-” or better",
+                                "buttons": [
+                                    {
+                                        "name": "Click for More Transfer Information",
+                                        "action": {
+                                            "payload": {
+                                                "url": "https://www.kommunicate.io/product/kompose-bot-builder/"
+                                            },
+                                            "type": "link"
+                                        }
+                                    }
+                                ],
+                                "title": ""
+                            },
+                            {
+                                "subtitle": "To be considered eligible as an upper division transfer student, applicants must meet the following:60 transferable semester or 90 transferable quarter units at a regionally accredited* community college or university",
+                                "buttons": [
+                                    {
+                                        "action": {
+                                            "payload": {
+                                                "url": "https://www.kommunicate.io/product/kompose-bot-builder/"
+                                            },
+                                            "type": "link"
+                                        },
+                                        "name": "Click for More Transfer Information"
+                                    }
+                                ],
+                                "titleExt": "Transfer Fact #3",
+                                "description": "",
+                                "header": "",
+                                "title": ""
+                            },
+                            {
+                                "subtitle": "The state residents must have a transferable grade-point average of 2.0 (“C-”) or better.",
+                                "buttons": [
+                                    {
+                                        "action": {
+                                            "payload": {
+                                                "url": "https://www.kommunicate.io/product/kompose-bot-builder/"
+                                            },
+                                            "type": "link"
+                                        },
+                                        "name": "Click for More Transfer Information"
+                                    }
+                                ],
+                                "description": "",
+                                "title": "",
+                                "titleExt": "Transfer Fact #4",
+                                "header": ""
+                            },
+                            {
+                                "subtitle": "Complete the following four basic skills courses with a grade of C- or better in each course:  English Composition, Critical Thinking, Speech/Oral Communication, College Algebra (or baccalaureate level transferable math course equivalent).",
+                                "title": "",
+                                "titleExt": "Transfer Fact #5",
+                                "description": "",
+                                "header": "",
+                                "buttons": [
+                                    {
+                                        "name": "Click for More Transfer Information",
+                                        "action": {
+                                            "payload": {
+                                                "url": "https://www.kommunicate.io/product/kompose-bot-builder/"
+                                            },
+                                            "type": "link"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "templateId": "10"
+                    },
+                    "message": "Scroll through Transfer Facts:"
+                },
+                {
+                    "message": "",
+                    "platform": "kommunicate",
+                    "metadata": {
+                        "contentType": "300",
+                        "templateId": "11",
+                        "payload": [
+                            {
+                                "name": "Main Menu",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "Main Menu"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "urlPatternList": [],
+            "category": "intent",
+			"languageCode": "en",
+            "name": "Transfer Student",
+            "trainingPhrases": [
+                "Transfer Student",
+                "🔁 Transfer Student"
+            ]
+        },
+        {
+            "content": [
+                {
+                    "message": "Use the below 👇 options and proceed!"
+                },
+                {
+                    "message": "",
+                    "platform": "kommunicate",
+                    "metadata": {
+                        "contentType": "300",
+                        "templateId": "11",
+                        "payload": [
+                            {
+                                "name": "💰Cost to Attend",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "💰Cost to Attend"
+                                }
+                            },
+                            {
+                                "name": "1️⃣ Freshman & First-Time",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "1️⃣ Freshman & First-Time"
+                                }
+                            },
+                            {
+                                "name": "🔑 Sign Up for Orientation",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "🔑 Sign Up for Orientation"
+                                }
+                            },
+                            {
+                                "name": "🔁 Transfer Student",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "🔁 Transfer Student"
+                                }
+                            },
+                            {
+                                "name": "👨‍⚖️ Veteran Admission",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "👨‍⚖️ Veteran Admission"
+                                }
+                            },
+                            {
+                                "name": "⏲️ Admission Deadlines",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "⏲️ Admission Deadlines"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "urlPatternList": [],
+            "category": "intent",
+			"languageCode": "en",
+            "name": "Main Menu",
+            "trainingPhrases": [
+                "Main Menu"
+            ]
+        },
+        {
+            "content": [
+                {
+                    "message": "The deadline for submitting an application is 30th July."
+                },
+                {
+                    "message": "",
+                    "platform": "kommunicate",
+                    "metadata": {
+                        "contentType": "300",
+                        "templateId": "11",
+                        "payload": [
+                            {
+                                "name": "Freshman & First-Time",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "Freshman & First-Time"
+                                }
+                            },
+                            {
+                                "name": "Cost to Attend",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "Cost to Attend"
+                                }
+                            },
+                            {
+                                "name": "Veteran Admission",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "Veteran Admission"
+                                }
+                            },
+                            {
+                                "name": "Transfer Student",
+                                "action": {
+                                    "type": "quickReply",
+                                    "message": "Transfer Student"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "urlPatternList": [],
+            "category": "intent",
+			"languageCode": "en",
+            "name": "Admission deadline",
+            "trainingPhrases": [
+                "⏲️ Admission Deadlines",
+                "Admission Deadlines"
+            ]
+        }
+    ],
+    "languageCodes": [
+        "en"
+    ]
+}
