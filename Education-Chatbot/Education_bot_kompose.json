@@ -29,7 +29,7 @@
             ],
             "urlPatternList": [],
             "category": "intent",
-			"languageCode": "en",
+	    "languageCode": "en",
             "name": "Virtual Labs",
             "trainingPhrases": [
                 "Virtual Labs"
@@ -67,7 +67,7 @@
             ],
             "urlPatternList": [],
             "category": "intent",
-			"languageCode": "en",
+	    "languageCode": "en",
             "name": "Download Software",
             "trainingPhrases": [
                 "Download Software"
@@ -105,7 +105,7 @@
             ],
             "urlPatternList": [],
             "category": "intent",
-			"languageCode": "en",
+	    "languageCode": "en",
             "name": "Knowledge base articles",
             "trainingPhrases": [
                 "knowledge base articles"
@@ -136,7 +136,7 @@
             ],
             "urlPatternList": [],
             "category": "intent",
-			"languageCode": "en",
+	    "languageCode": "en",
             "name": "Laptop Checkout",
             "trainingPhrases": [
                 "Laptop Checkout"
@@ -181,7 +181,7 @@
             ],
             "urlPatternList": [],
             "category": "intent",
-			"languageCode": "en",
+	    "languageCode": "en",
             "name": "Support Bot",
             "trainingPhrases": [
                 "I want to talk to support",
@@ -213,7 +213,7 @@
             ],
             "urlPatternList": [],
             "category": "intent",
-			"languageCode": "en",
+	    "languageCode": "en",
             "name": "Technical Support",
             "trainingPhrases": [
                 "Technical Support"
@@ -233,7 +233,7 @@
             ],
             "urlPatternList": [],
             "category": "fallback_intent",
-			"languageCode": "en",
+	    "languageCode": "en",
             "name": "Default Fallback Intent",
             "trainingPhrases": []
         },
@@ -297,7 +297,7 @@
             ],
             "urlPatternList": [],
             "category": "welcome_event",
-			"languageCode": "en",
+	    "languageCode": "en",
             "name": "Default Welcome Intent",
             "trainingPhrases": []
         },
@@ -354,7 +354,7 @@
             ],
             "urlPatternList": [],
             "category": "intent",
-			"languageCode": "en",
+	    "languageCode": "en",
             "name": "Veteran Admission",
             "trainingPhrases": [
                 "Veteran Admission",
@@ -414,7 +414,7 @@
             ],
             "urlPatternList": [],
             "category": "intent",
-			"languageCode": "en",
+	    "languageCode": "en",
             "name": "Admission - Sign Up for orientation",
             "trainingPhrases": [
                 "Sign Up for orientation",
@@ -446,7 +446,7 @@
             ],
             "urlPatternList": [],
             "category": "intent",
-			"languageCode": "en",
+	    "languageCode": "en",
             "name": "Cost to Attend",
             "trainingPhrases": [
                 "Cost to Attend",
@@ -478,7 +478,7 @@
             ],
             "urlPatternList": [],
             "category": "intent",
-			"languageCode": "en",
+	    "languageCode": "en",
             "name": "Freshman & First-Time",
             "trainingPhrases": [
                 "Freshman & First-Time",
@@ -625,7 +625,7 @@
             ],
             "urlPatternList": [],
             "category": "intent",
-			"languageCode": "en",
+	    "languageCode": "en",
             "name": "Transfer Student",
             "trainingPhrases": [
                 "Transfer Student",
@@ -692,7 +692,7 @@
             ],
             "urlPatternList": [],
             "category": "intent",
-			"languageCode": "en",
+	    "languageCode": "en",
             "name": "Main Menu",
             "trainingPhrases": [
                 "Main Menu"
@@ -744,7 +744,7 @@
             ],
             "urlPatternList": [],
             "category": "intent",
-			"languageCode": "en",
+	    "languageCode": "en",
             "name": "Admission deadline",
             "trainingPhrases": [
                 "⏲️ Admission Deadlines",
